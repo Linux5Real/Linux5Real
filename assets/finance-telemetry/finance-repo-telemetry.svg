@@ -39,7 +39,7 @@
   <text x="52" y="160" class="ui muted">Source-safe repo telemetry only. Activity exposed, code withheld.</text>
 
   <text x="52" y="204" class="ui label">Tracked LOC</text>
-  <text x="52" y="240" class="ui value">53 220</text>
+  <text x="52" y="240" class="ui value">53 281</text>
 
   <text x="214" y="204" class="ui label">Tracked Files</text>
   <text x="214" y="240" class="ui value">156</text>
@@ -58,14 +58,14 @@
 
   
             <text x="506" y="164" class="ui" fill="#F1F1F1" font-size="15" font-weight="600">Python</text>
-            <text x="804" y="164" class="mono" fill="#999999" font-size="13" text-anchor="end">30 274 lines</text>
+            <text x="804" y="164" class="mono" fill="#999999" font-size="13" text-anchor="end">30 335 lines</text>
             <rect x="506" y="176" width="258" height="10" rx="5" fill="#1A1A1A" />
-            <rect x="506" y="176" width="146.8" height="10" rx="5" fill="#FFFFFF" />
+            <rect x="506" y="176" width="146.9" height="10" rx="5" fill="#FFFFFF" />
             
             <text x="506" y="206" class="ui" fill="#F1F1F1" font-size="15" font-weight="600">HTML</text>
             <text x="804" y="206" class="mono" fill="#999999" font-size="13" text-anchor="end">22 392 lines</text>
             <rect x="506" y="218" width="258" height="10" rx="5" fill="#1A1A1A" />
-            <rect x="506" y="218" width="108.6" height="10" rx="5" fill="#CFCFCF" />
+            <rect x="506" y="218" width="108.4" height="10" rx="5" fill="#CFCFCF" />
             
             <text x="506" y="248" class="ui" fill="#F1F1F1" font-size="15" font-weight="600">Shell</text>
             <text x="804" y="248" class="mono" fill="#999999" font-size="13" text-anchor="end">266 lines</text>
