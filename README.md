@@ -86,11 +86,11 @@ This system is for me first. It is being built as a private finance workspace th
 > Public-safe metrics generated from my private finance repository. This exposes activity and code telemetry, not the source code itself.
 
 <p>
-  <img src="https://github.com/Linux5Real/Linux5Real/blob/288af8b97060dc53019676d0f5cb54f49e4b5c3f/assets/finance-telemetry/finance-repo-telemetry.svg?raw=1" alt="Finance repo telemetry" />
+  <img src="https://github.com/Linux5Real/Linux5Real/blob/410e8bae9c05472d48cb04ca56b4c10811902737/assets/finance-telemetry/finance-repo-telemetry.svg?raw=1" alt="Finance repo telemetry" />
 </p>
 
 <p>
-  <img src="https://github.com/Linux5Real/Linux5Real/blob/288af8b97060dc53019676d0f5cb54f49e4b5c3f/assets/finance-telemetry/finance-repo-activity.svg?raw=1" alt="Finance repo activity" />
+  <img src="https://github.com/Linux5Real/Linux5Real/blob/410e8bae9c05472d48cb04ca56b4c10811902737/assets/finance-telemetry/finance-repo-activity.svg?raw=1" alt="Finance repo activity" />
 </p>
 
 ## Profile Signals
@@ -107,3 +107,4 @@ This system is for me first. It is being built as a private finance workspace th
 ---
 
 Building private AI systems where stock signals, market context, and execution discipline converge.
+
