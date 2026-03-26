@@ -1,23 +1,18 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:061018,35:0D2033,70:0A7C66,100:061018&height=260&section=header&text=LINUS%20%2F%20LINUX5REAL&fontSize=44&fontColor=EAF2F8&fontAlignY=38&desc=AI%20systems%20for%20stocks%2C%20signals%2C%20and%20live%20market%20context&descSize=18&descAlignY=60&animation=twinkling" alt="Linus / Linux5real animated finance banner" />
-
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1200&color=5CE1A5&center=true&vCenter=true&width=980&lines=Building+AI+systems+for+live+market+context;Tracking+stocks%2C+news%2C+catalysts%2C+and+execution;Private+finance+tools+with+real+workflow+focus;Swing-to-day+trader+working+with+AI+and+markets;Linux-native+builder+focused+on+signal+quality" alt="Typing SVG" />
-  </a>
+  <img src="https://raw.githubusercontent.com/Linux5Real/Linux5Real/main/assets/finance-telemetry/finance-hero.svg" alt="Linus / Linux5Real market desk banner" />
 
   <p>
-    <img src="https://img.shields.io/badge/MARKET%20MODE-Live%20Context%20%E2%96%B2-081018?style=for-the-badge&labelColor=061018&color=0A7C66" alt="Market mode live context" />
-    <img src="https://img.shields.io/badge/MODEL%20ROUTING-DeepSeek%20%2B%20Grok%20%E2%96%B2-081018?style=for-the-badge&labelColor=061018&color=12324A" alt="Model routing" />
-    <img src="https://img.shields.io/badge/TRADING%20STYLE-Swing%20to%20Day%20%E2%96%B2-081018?style=for-the-badge&labelColor=061018&color=174B39" alt="Trading style" />
+    <img src="https://img.shields.io/badge/MARKET%20DESK-US%20Equities-09131D?style=for-the-badge&labelColor=07111D&color=12315B" alt="Market desk US Equities" />
+    <img src="https://img.shields.io/badge/SIGNAL%20ROUTING-Live%20Context-09131D?style=for-the-badge&labelColor=07111D&color=132744" alt="Signal routing live context" />
+    <img src="https://img.shields.io/badge/EXECUTION-Discipline-09131D?style=for-the-badge&labelColor=07111D&color=7A2028" alt="Execution discipline" />
   </p>
 
   <p>
-    <img src="https://img.shields.io/badge/LOCATION-Germany-0f172a?style=flat-square&labelColor=081018&color=12202f" alt="Location Germany" />
-    <img src="https://img.shields.io/badge/AGE-18-0f172a?style=flat-square&labelColor=081018&color=12202f" alt="Age 18" />
-    <img src="https://img.shields.io/badge/FOCUS-AI%20Systems-0f172a?style=flat-square&labelColor=081018&color=12202f" alt="Focus AI Systems" />
-    <img src="https://img.shields.io/badge/MARKETS-Stocks%20%26%20Finance-0f172a?style=flat-square&labelColor=081018&color=12202f" alt="Markets Stocks and Finance" />
-    <img src="https://img.shields.io/badge/PLATFORM-Linux%20%2F%20Debian-0f172a?style=flat-square&labelColor=081018&color=12202f" alt="Platform Linux Debian" />
-    <img src="https://img.shields.io/badge/VERSIONING-Git%20%2F%20GitHub-0f172a?style=flat-square&labelColor=081018&color=12202f" alt="Versioning Git GitHub" />
+    <img src="https://img.shields.io/badge/LOCATION-Germany-0B1420?style=flat-square&labelColor=07111D&color=16335B" alt="Location Germany" />
+    <img src="https://img.shields.io/badge/AGE-18-0B1420?style=flat-square&labelColor=07111D&color=16335B" alt="Age 18" />
+    <img src="https://img.shields.io/badge/TRADING-Swing%20to%20Day-0B1420?style=flat-square&labelColor=07111D&color=7A2028" alt="Trading style" />
+    <img src="https://img.shields.io/badge/PLATFORM-Linux%20%2F%20Debian-0B1420?style=flat-square&labelColor=07111D&color=16335B" alt="Platform Linux Debian" />
+    <img src="https://img.shields.io/badge/VERSIONING-Git%20%2F%20GitHub-0B1420?style=flat-square&labelColor=07111D&color=132744" alt="Versioning Git GitHub" />
   </p>
 </div>
 
@@ -54,12 +49,12 @@ This system is for me first. It is being built as a private finance workspace th
 ## Market Coverage
 
 <p>
-  <img src="https://img.shields.io/badge/CHARTS-Tracked-081018?style=for-the-badge&labelColor=061018&color=12324A" alt="Charts tracked" />
-  <img src="https://img.shields.io/badge/FINANCE%20NEWS-Ingested-081018?style=for-the-badge&labelColor=061018&color=12324A" alt="Finance news ingested" />
-  <img src="https://img.shields.io/badge/CEO%20NEWS-Watched-081018?style=for-the-badge&labelColor=061018&color=12324A" alt="CEO news watched" />
-  <img src="https://img.shields.io/badge/MACRO%20EVENTS-Observed-081018?style=for-the-badge&labelColor=061018&color=12324A" alt="Macro events observed" />
-  <img src="https://img.shields.io/badge/TRADE%20MEMORY-Connected-081018?style=for-the-badge&labelColor=061018&color=0A7C66" alt="Trade memory connected" />
-  <img src="https://img.shields.io/badge/EMOTIONAL%20LAYER-Planned-081018?style=for-the-badge&labelColor=061018&color=7A2E2E" alt="Emotional layer planned" />
+  <img src="https://img.shields.io/badge/CHARTS-Tracked-09131D?style=for-the-badge&labelColor=07111D&color=16335B" alt="Charts tracked" />
+  <img src="https://img.shields.io/badge/FINANCE%20NEWS-Ingested-09131D?style=for-the-badge&labelColor=07111D&color=16335B" alt="Finance news ingested" />
+  <img src="https://img.shields.io/badge/CEO%20NEWS-Watched-09131D?style=for-the-badge&labelColor=07111D&color=132744" alt="CEO news watched" />
+  <img src="https://img.shields.io/badge/MACRO%20EVENTS-Observed-09131D?style=for-the-badge&labelColor=07111D&color=132744" alt="Macro events observed" />
+  <img src="https://img.shields.io/badge/TRADE%20MEMORY-Connected-09131D?style=for-the-badge&labelColor=07111D&color=DCE7F3&logoColor=09131D" alt="Trade memory connected" />
+  <img src="https://img.shields.io/badge/EMOTIONAL%20LAYER-Planned-09131D?style=for-the-badge&labelColor=07111D&color=7A2028" alt="Emotional layer planned" />
 </p>
 
 ## Operating Bias
@@ -81,12 +76,12 @@ This system is for me first. It is being built as a private finance workspace th
 ### Models and Workflow
 
 <p>
-  <img src="https://img.shields.io/badge/DeepSeek-V3.2%20Reasoner-081018?style=flat-square&color=12202f" alt="DeepSeek V3.2 Reasoner" />
-  <img src="https://img.shields.io/badge/Grok-4.1%20Fast%20Reasoner-081018?style=flat-square&color=12202f" alt="Grok 4.1 Fast Reasoner" />
-  <img src="https://img.shields.io/badge/Workflow-Live%20Finance%20Context-081018?style=flat-square&color=12202f" alt="Live finance context" />
-  <img src="https://img.shields.io/badge/Trading-Swing%20to%20Day-081018?style=flat-square&color=12202f" alt="Swing to day trading" />
-  <img src="https://img.shields.io/badge/Focus-Signal%20Routing-081018?style=flat-square&color=12202f" alt="Signal routing" />
-  <img src="https://img.shields.io/badge/Build-Private%20AI%20Systems-081018?style=flat-square&color=12202f" alt="Private AI systems" />
+  <img src="https://img.shields.io/badge/DeepSeek-V3.2%20Reasoner-0B1420?style=flat-square&color=16335B" alt="DeepSeek V3.2 Reasoner" />
+  <img src="https://img.shields.io/badge/Grok-4.1%20Fast%20Reasoner-0B1420?style=flat-square&color=16335B" alt="Grok 4.1 Fast Reasoner" />
+  <img src="https://img.shields.io/badge/Workflow-Live%20Finance%20Context-0B1420?style=flat-square&color=132744" alt="Live finance context" />
+  <img src="https://img.shields.io/badge/Trading-Swing%20to%20Day-0B1420?style=flat-square&color=7A2028" alt="Swing to day trading" />
+  <img src="https://img.shields.io/badge/Focus-Signal%20Routing-0B1420?style=flat-square&color=16335B" alt="Signal routing" />
+  <img src="https://img.shields.io/badge/Build-Private%20AI%20Systems-0B1420?style=flat-square&color=132744" alt="Private AI systems" />
 </p>
 
 ## Background
@@ -111,12 +106,12 @@ This system is for me first. It is being built as a private finance workspace th
 ## Profile Signals
 
 <p>
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=Linux5real&show_icons=true&count_private=true&include_all_commits=true&hide_border=true&bg_color=0d1117&title_color=5ce1a5&text_color=c9d1d9&icon_color=5ce1a5&custom_title=Linux5real%20GitHub%20Stats" alt="Linux5real GitHub stats" />
-  <img height="170" src="https://streak-stats.demolab.com?user=Linux5real&hide_border=true&background=0D1117&ring=5CE1A5&fire=5CE1A5&currStreakLabel=EAF2F8&sideLabels=C9D1D9&dates=8B949E&sideNums=EAF2F8&currStreakNum=EAF2F8" alt="Linux5real GitHub streak" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=Linux5real&show_icons=true&count_private=true&include_all_commits=true&hide_border=true&bg_color=07111d&title_color=E8F0F8&text_color=C7D5E3&icon_color=D94A3A&custom_title=Linux5real%20GitHub%20Stats" alt="Linux5real GitHub stats" />
+  <img height="170" src="https://streak-stats.demolab.com?user=Linux5real&hide_border=true&background=07111D&ring=2F66B3&fire=D94A3A&currStreakLabel=E8F0F8&sideLabels=C7D5E3&dates=7D93AC&sideNums=E8F0F8&currStreakNum=E8F0F8" alt="Linux5real GitHub streak" />
 </p>
 
 <p>
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Linux5real&bg_color=0d1117&color=c9d1d9&line=5ce1a5&point=f85149&area=true&hide_border=true" alt="Linux5real activity graph" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Linux5real&bg_color=07111d&color=dce7f3&line=2f66b3&point=d94a3a&area=true&hide_border=true" alt="Linux5real activity graph" />
 </p>
 
 ---

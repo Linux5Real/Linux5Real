@@ -1,62 +1,76 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="860" height="320" viewBox="0 0 860 320" role="img" aria-label="Finance Repo Telemetry">
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="360" viewBox="0 0 920 360" role="img" aria-label="Finance Repo Telemetry">
   <defs>
     <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#061018" />
-      <stop offset="50%" stop-color="#0D2033" />
-      <stop offset="100%" stop-color="#061018" />
+      <stop offset="0%" stop-color="#07111D" />
+      <stop offset="60%" stop-color="#0F2036" />
+      <stop offset="100%" stop-color="#070D17" />
+    </linearGradient>
+    <linearGradient id="desk-line" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#2F66B3" />
+      <stop offset="55%" stop-color="#DCE7F3" />
+      <stop offset="100%" stop-color="#D94A3A" />
     </linearGradient>
   </defs>
   
   <style>
     .ui { font-family: 'Segoe UI', Arial, sans-serif; }
     .mono { font-family: 'JetBrains Mono', 'Fira Code', Consolas, monospace; }
-    .label { fill: #8AA0B6; font-size: 12px; letter-spacing: 1.2px; text-transform: uppercase; }
-    .value { fill: #EAF2F8; font-size: 30px; font-weight: 700; }
-    .title { fill: #EAF2F8; font-size: 28px; font-weight: 700; }
-    .subtitle { fill: #8AA0B6; font-size: 15px; }
-    .eyebrow { fill: #5CE1A5; font-size: 14px; font-weight: 700; letter-spacing: 1.4px; }
+    .display { font-family: Georgia, 'Times New Roman', serif; }
+    .label { fill: #8FA7C4; font-size: 12px; letter-spacing: 1.2px; text-transform: uppercase; }
+    .value { fill: #F4F7FB; font-size: 30px; font-weight: 700; }
+    .title { fill: #F4F7FB; font-size: 29px; font-weight: 700; font-family: Georgia, 'Times New Roman', serif; }
+    .subtitle { fill: #9DB1C9; font-size: 15px; }
+    .eyebrow { fill: #D94A3A; font-size: 13px; font-weight: 700; letter-spacing: 1.8px; }
   </style>
 
-  <rect width="860" height="320" rx="24" fill="url(#bg)" />
-  <rect x="24" y="24" width="812" height="272" rx="18" fill="rgba(5, 11, 18, 0.72)" stroke="#193042" />
-  <text x="48" y="62" class="ui eyebrow">PRIVATE REPO TELEMETRY</text>
-  <text x="48" y="96" class="ui title">Finance Repo Telemetry</text>
-  <text x="48" y="122" class="ui subtitle">Finance Signal Engine</text>
-  <text x="48" y="152" class="ui" fill="#8AA0B6" font-size="13">Private repo, public-safe telemetry only</text>
+  <rect width="920" height="360" rx="28" fill="url(#bg)" />
+  <rect x="28" y="28" width="864" height="304" rx="22" fill="#09131F" stroke="#1B3556" />
+  <rect x="28" y="28" width="864" height="8" rx="4" fill="#15253B" />
+  <rect x="28" y="28" width="226" height="8" rx="4" fill="#D94A3A" />
+  <path d="M530 104 L582 118 L626 86 L670 94 L716 70 L762 80 L812 52" fill="none" stroke="url(#desk-line)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+  <circle cx="626" cy="86" r="4" fill="#DCE7F3" />
+  <circle cx="716" cy="70" r="4" fill="#D94A3A" />
+  <circle cx="812" cy="52" r="4" fill="#2F66B3" />
 
-  <text x="48" y="196" class="ui label">Tracked LOC</text>
-  <text x="48" y="228" class="ui value">26 490</text>
+  <text x="54" y="66" class="ui eyebrow">PRIVATE REPO TELEMETRY</text>
+  <text x="54" y="104" class="ui title">Finance Repo Telemetry</text>
+  <text x="54" y="130" class="ui subtitle">Finance Signal Engine</text>
+  <text x="54" y="154" class="ui" fill="#8FA7C4" font-size="13">Public-safe market-system telemetry only. No source code exposed.</text>
 
-  <text x="220" y="196" class="ui label">Tracked Files</text>
-  <text x="220" y="228" class="ui value">78</text>
+  <text x="54" y="208" class="ui label">Tracked LOC</text>
+  <text x="54" y="246" class="ui value">53 090</text>
 
-  <text x="360" y="196" class="ui label">Commits 30D</text>
-  <text x="360" y="228" class="ui value">62</text>
+  <text x="234" y="208" class="ui label">Tracked Files</text>
+  <text x="234" y="246" class="ui value">156</text>
 
-  <text x="360" y="252" class="ui" fill="#8AA0B6" font-size="12">Total commits: 159</text>
+  <text x="392" y="208" class="ui label">Commits 30D</text>
+  <text x="392" y="246" class="ui value">63</text>
 
-  <text x="48" y="276" class="ui" fill="#8AA0B6" font-size="12">Contributors: 1</text>
-  <text x="180" y="276" class="ui" fill="#8AA0B6" font-size="12">Last commit: 2026-03-25</text>
+  <text x="54" y="286" class="ui" fill="#8FA7C4" font-size="12">Contributors: 1</text>
+  <text x="188" y="286" class="ui" fill="#8FA7C4" font-size="12">Last commit: 2026-03-26</text>
+  <text x="362" y="286" class="ui" fill="#8FA7C4" font-size="12">Total commits: 160</text>
+  <text x="500" y="130" class="ui label">Code Mix</text>
+  <text x="500" y="286" class="ui" fill="#8FA7C4" font-size="12">Top languages by non-empty tracked lines</text>
 
   
-            <text x="500" y="168" class="ui" fill="#EAF2F8" font-size="15" font-weight="600">Python</text>
-            <text x="780" y="168" class="mono" fill="#8AA0B6" font-size="13" text-anchor="end">15 017 lines</text>
-            <rect x="500" y="176" width="280" height="8" rx="4" fill="#132130" />
-            <rect x="500" y="176" width="158.7" height="8" rx="4" fill="#5CE1A5" />
+            <text x="500" y="160" class="ui" fill="#EAF2F8" font-size="15" font-weight="600">Python</text>
+            <text x="780" y="160" class="mono" fill="#8AA0B6" font-size="13" text-anchor="end">30 144 lines</text>
+            <rect x="500" y="172" width="258" height="10" rx="5" fill="#122234" />
+            <rect x="500" y="172" width="146.5" height="10" rx="5" fill="#2F66B3" />
             
-            <text x="500" y="198" class="ui" fill="#EAF2F8" font-size="15" font-weight="600">HTML</text>
-            <text x="780" y="198" class="mono" fill="#8AA0B6" font-size="13" text-anchor="end">11 196 lines</text>
-            <rect x="500" y="206" width="280" height="8" rx="4" fill="#132130" />
-            <rect x="500" y="206" width="118.3" height="8" rx="4" fill="#2BB6D8" />
+            <text x="500" y="202" class="ui" fill="#EAF2F8" font-size="15" font-weight="600">HTML</text>
+            <text x="780" y="202" class="mono" fill="#8AA0B6" font-size="13" text-anchor="end">22 392 lines</text>
+            <rect x="500" y="214" width="258" height="10" rx="5" fill="#122234" />
+            <rect x="500" y="214" width="108.8" height="10" rx="5" fill="#DCE7F3" />
             
-            <text x="500" y="228" class="ui" fill="#EAF2F8" font-size="15" font-weight="600">Shell</text>
-            <text x="780" y="228" class="mono" fill="#8AA0B6" font-size="13" text-anchor="end">133 lines</text>
-            <rect x="500" y="236" width="280" height="8" rx="4" fill="#132130" />
-            <rect x="500" y="236" width="5.6" height="8" rx="4" fill="#F59E0B" />
+            <text x="500" y="244" class="ui" fill="#EAF2F8" font-size="15" font-weight="600">Shell</text>
+            <text x="780" y="244" class="mono" fill="#8AA0B6" font-size="13" text-anchor="end">266 lines</text>
+            <rect x="500" y="256" width="258" height="10" rx="5" fill="#122234" />
+            <rect x="500" y="256" width="5.2" height="10" rx="5" fill="#8EA3BD" />
             
-            <text x="500" y="258" class="ui" fill="#EAF2F8" font-size="15" font-weight="600">SQL</text>
-            <text x="780" y="258" class="mono" fill="#8AA0B6" font-size="13" text-anchor="end">75 lines</text>
-            <rect x="500" y="266" width="280" height="8" rx="4" fill="#132130" />
-            <rect x="500" y="266" width="5.6" height="8" rx="4" fill="#F87171" />
+            <text x="500" y="286" class="ui" fill="#EAF2F8" font-size="15" font-weight="600">SQL</text>
+            <text x="780" y="286" class="mono" fill="#8AA0B6" font-size="13" text-anchor="end">150 lines</text>
+            <rect x="500" y="298" width="258" height="10" rx="5" fill="#122234" />
+            <rect x="500" y="298" width="5.2" height="10" rx="5" fill="#D94A3A" />
             
 </svg>

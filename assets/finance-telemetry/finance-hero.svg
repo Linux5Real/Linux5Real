@@ -3,39 +3,42 @@
   <style>
     .ui { font-family: 'Segoe UI', Arial, sans-serif; }
     .mono { font-family: 'JetBrains Mono', 'Fira Code', Consolas, monospace; }
-    .label { fill: #8AA0B6; font-size: 12px; letter-spacing: 1.2px; text-transform: uppercase; }
-    .value { fill: #EAF2F8; font-size: 30px; font-weight: 700; }
-    .title { fill: #EAF2F8; font-size: 28px; font-weight: 700; }
-    .subtitle { fill: #8AA0B6; font-size: 15px; }
-    .eyebrow { fill: #5CE1A5; font-size: 14px; font-weight: 700; letter-spacing: 1.4px; }
+    .display { font-family: Georgia, 'Times New Roman', serif; }
+    .label { fill: #8FA7C4; font-size: 12px; letter-spacing: 1.2px; text-transform: uppercase; }
+    .value { fill: #F4F7FB; font-size: 30px; font-weight: 700; }
+    .title { fill: #F4F7FB; font-size: 29px; font-weight: 700; font-family: Georgia, 'Times New Roman', serif; }
+    .subtitle { fill: #9DB1C9; font-size: 15px; }
+    .eyebrow { fill: #D94A3A; font-size: 13px; font-weight: 700; letter-spacing: 1.8px; }
   </style>
 
   <defs>
     <linearGradient id="hero-bg" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#050A0F" />
-      <stop offset="45%" stop-color="#0A1824" />
-      <stop offset="100%" stop-color="#071B16" />
+      <stop offset="0%" stop-color="#08111D" />
+      <stop offset="45%" stop-color="#0E2240" />
+      <stop offset="100%" stop-color="#0A1321" />
     </linearGradient>
     <linearGradient id="signal" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#F87171" />
-      <stop offset="50%" stop-color="#5CE1A5" />
-      <stop offset="100%" stop-color="#2BB6D8" />
+      <stop offset="0%" stop-color="#2F66B3" />
+      <stop offset="50%" stop-color="#DCE7F3" />
+      <stop offset="100%" stop-color="#D94A3A" />
     </linearGradient>
   </defs>
   <rect width="1280" height="320" rx="28" fill="url(#hero-bg)" />
-  <rect x="24" y="24" width="1232" height="272" rx="22" fill="#09131D" stroke="#183246" />
-  <text x="64" y="72" class="mono" fill="#5CE1A5" font-size="14" font-weight="700">FINANCE SIGNAL ENGINE</text>
-  <text x="64" y="128" class="ui" fill="#EAF2F8" font-size="46" font-weight="700">LINUS / LINUX5REAL</text>
-  <text x="64" y="166" class="ui" fill="#9BB1C5" font-size="19">AI systems for stocks, signals, and live market context</text>
-  <text x="64" y="208" class="mono" fill="#7E92A5" font-size="13">Watching stocks, news, catalysts, execution, and private trader context.</text>
-  <path d="M730 182 L808 182 L858 124 L923 124 L979 86 L1038 142 L1098 110 L1160 52" fill="none" stroke="url(#signal)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
-  <circle cx="808" cy="182" r="6" fill="#F87171" />
-  <circle cx="923" cy="124" r="6" fill="#5CE1A5" />
-  <circle cx="1160" cy="52" r="6" fill="#2BB6D8" />
-  <rect x="64" y="246" width="180" height="28" rx="14" fill="#0D2033" />
-  <rect x="254" y="246" width="214" height="28" rx="14" fill="#0F2B20" />
-  <rect x="478" y="246" width="184" height="28" rx="14" fill="#10283A" />
-  <text x="84" y="265" class="mono" fill="#EAF2F8" font-size="12">AI SYSTEMS</text>
-  <text x="274" y="265" class="mono" fill="#EAF2F8" font-size="12">LIVE CONTEXT</text>
-  <text x="498" y="265" class="mono" fill="#EAF2F8" font-size="12">STOCK SIGNALS</text>
+  <rect x="24" y="24" width="1232" height="272" rx="22" fill="#09131D" stroke="#1B3556" />
+  <rect x="24" y="24" width="1232" height="8" rx="4" fill="#15253B" />
+  <rect x="24" y="24" width="320" height="8" rx="4" fill="#D94A3A" />
+  <text x="64" y="74" class="mono" fill="#D94A3A" font-size="14" font-weight="700">ACTIVE TRADER / MARKET DESK</text>
+  <text x="64" y="132" class="display" fill="#F4F7FB" font-size="50" font-weight="700">LINUS / LINUX5REAL</text>
+  <text x="64" y="170" class="ui" fill="#A9BDD4" font-size="20">AI systems for stocks, signals, and live market context</text>
+  <text x="64" y="210" class="mono" fill="#748CA8" font-size="13">Stocks, signals, headlines, execution context, and private workflow telemetry.</text>
+  <path d="M736 190 L794 166 L842 176 L892 132 L944 146 L992 98 L1044 118 L1094 84 L1152 54" fill="none" stroke="url(#signal)" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" />
+  <circle cx="794" cy="166" r="6" fill="#2F66B3" />
+  <circle cx="944" cy="146" r="6" fill="#DCE7F3" />
+  <circle cx="1094" cy="84" r="6" fill="#D94A3A" />
+  <rect x="64" y="244" width="172" height="28" rx="14" fill="#12315B" />
+  <rect x="248" y="244" width="196" height="28" rx="14" fill="#132744" />
+  <rect x="456" y="244" width="190" height="28" rx="14" fill="#40181C" />
+  <text x="86" y="263" class="mono" fill="#F4F7FB" font-size="12">US EQUITIES</text>
+  <text x="270" y="263" class="mono" fill="#F4F7FB" font-size="12">SIGNAL ROUTING</text>
+  <text x="478" y="263" class="mono" fill="#F4F7FB" font-size="12">EXECUTION DISCIPLINE</text>
 </svg>
