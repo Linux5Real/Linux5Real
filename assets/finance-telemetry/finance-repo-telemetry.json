@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-03-26T07:31:58Z",
+  "generated_at": "2026-03-26T07:39:20Z",
   "repo_label": "Finance Signal Engine",
   "scan": {
     "tracked_files": 156,
-    "tracked_lines": 53281,
+    "tracked_lines": 53319,
     "language_lines": {
       "HTML": 22392,
-      "Python": 30335,
+      "Python": 30373,
       "SQL": 150,
       "Shell": 266,
       "YAML": 138
