@@ -1,20 +1,12 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Linux5Real/Linux5Real/main/assets/finance-telemetry/finance-hero.svg" alt="Linus / Linux5Real market desk banner" />
-
-  <p>
-    <img src="https://img.shields.io/badge/MARKET%20DESK-US%20Equities-09131D?style=for-the-badge&labelColor=07111D&color=12315B" alt="Market desk US Equities" />
-    <img src="https://img.shields.io/badge/SIGNAL%20ROUTING-Live%20Context-09131D?style=for-the-badge&labelColor=07111D&color=132744" alt="Signal routing live context" />
-    <img src="https://img.shields.io/badge/EXECUTION-Discipline-09131D?style=for-the-badge&labelColor=07111D&color=7A2028" alt="Execution discipline" />
-  </p>
-
-  <p>
-    <img src="https://img.shields.io/badge/LOCATION-Germany-0B1420?style=flat-square&labelColor=07111D&color=16335B" alt="Location Germany" />
-    <img src="https://img.shields.io/badge/AGE-18-0B1420?style=flat-square&labelColor=07111D&color=16335B" alt="Age 18" />
-    <img src="https://img.shields.io/badge/TRADING-Swing%20to%20Day-0B1420?style=flat-square&labelColor=07111D&color=7A2028" alt="Trading style" />
-    <img src="https://img.shields.io/badge/PLATFORM-Linux%20%2F%20Debian-0B1420?style=flat-square&labelColor=07111D&color=16335B" alt="Platform Linux Debian" />
-    <img src="https://img.shields.io/badge/VERSIONING-Git%20%2F%20GitHub-0B1420?style=flat-square&labelColor=07111D&color=132744" alt="Versioning Git GitHub" />
-  </p>
+  <img src="https://raw.githubusercontent.com/Linux5Real/Linux5Real/main/assets/finance-telemetry/finance-hero.svg" alt="Linus / Linux5Real market terminal banner" />
 </div>
+
+```text
+[ MARKET TERMINAL ] [ SIGNAL ROUTING ] [ EXECUTION DISCIPLINE ]
+[ LOCATION: GERMANY ] [ AGE: 18 ] [ TRADING: SWING TO DAY ] [ PLATFORM: LINUX / DEBIAN ]
+[ VERSIONING: GIT / GITHUB ] [ FOCUS: STOCKS / FINANCE / AI SYSTEMS ]
+```
 
 ## Desk Profile
 
@@ -48,14 +40,14 @@ This system is for me first. It is being built as a private finance workspace th
 
 ## Market Coverage
 
-<p>
-  <img src="https://img.shields.io/badge/CHARTS-Tracked-09131D?style=for-the-badge&labelColor=07111D&color=16335B" alt="Charts tracked" />
-  <img src="https://img.shields.io/badge/FINANCE%20NEWS-Ingested-09131D?style=for-the-badge&labelColor=07111D&color=16335B" alt="Finance news ingested" />
-  <img src="https://img.shields.io/badge/CEO%20NEWS-Watched-09131D?style=for-the-badge&labelColor=07111D&color=132744" alt="CEO news watched" />
-  <img src="https://img.shields.io/badge/MACRO%20EVENTS-Observed-09131D?style=for-the-badge&labelColor=07111D&color=132744" alt="Macro events observed" />
-  <img src="https://img.shields.io/badge/TRADE%20MEMORY-Connected-09131D?style=for-the-badge&labelColor=07111D&color=DCE7F3&logoColor=09131D" alt="Trade memory connected" />
-  <img src="https://img.shields.io/badge/EMOTIONAL%20LAYER-Planned-09131D?style=for-the-badge&labelColor=07111D&color=7A2028" alt="Emotional layer planned" />
-</p>
+| Stream | Status |
+| --- | --- |
+| Charts | Tracked |
+| Finance news | Ingested |
+| CEO news | Watched |
+| Macro events | Observed |
+| Trade memory | Connected |
+| Emotional layer | Planned |
 
 ## Operating Bias
 
@@ -69,20 +61,18 @@ This system is for me first. It is being built as a private finance workspace th
 
 ### Core Stack
 
-<p>
-  <img src="https://skillicons.dev/icons?i=python,js,html,css,linux,debian,git,github,vscode" alt="Core stack icons" />
-</p>
+`Python` `JavaScript` `HTML` `CSS` `Linux` `Debian` `Git` `GitHub` `VS Code`
 
 ### Models and Workflow
 
-<p>
-  <img src="https://img.shields.io/badge/DeepSeek-V3.2%20Reasoner-0B1420?style=flat-square&color=16335B" alt="DeepSeek V3.2 Reasoner" />
-  <img src="https://img.shields.io/badge/Grok-4.1%20Fast%20Reasoner-0B1420?style=flat-square&color=16335B" alt="Grok 4.1 Fast Reasoner" />
-  <img src="https://img.shields.io/badge/Workflow-Live%20Finance%20Context-0B1420?style=flat-square&color=132744" alt="Live finance context" />
-  <img src="https://img.shields.io/badge/Trading-Swing%20to%20Day-0B1420?style=flat-square&color=7A2028" alt="Swing to day trading" />
-  <img src="https://img.shields.io/badge/Focus-Signal%20Routing-0B1420?style=flat-square&color=16335B" alt="Signal routing" />
-  <img src="https://img.shields.io/badge/Build-Private%20AI%20Systems-0B1420?style=flat-square&color=132744" alt="Private AI systems" />
-</p>
+| Layer | Current Setup |
+| --- | --- |
+| Primary reasoning | `DeepSeek V3.2 Reasoner` |
+| Fast reasoning | `Grok 4.1 Fast Reasoner` |
+| Workflow | Live finance context |
+| Trading mode | Swing to day |
+| Build focus | Private AI systems |
+| System bias | Signal routing |
 
 ## Background
 
@@ -106,12 +96,12 @@ This system is for me first. It is being built as a private finance workspace th
 ## Profile Signals
 
 <p>
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=Linux5real&show_icons=true&count_private=true&include_all_commits=true&hide_border=true&bg_color=07111d&title_color=E8F0F8&text_color=C7D5E3&icon_color=D94A3A&custom_title=Linux5real%20GitHub%20Stats" alt="Linux5real GitHub stats" />
-  <img height="170" src="https://streak-stats.demolab.com?user=Linux5real&hide_border=true&background=07111D&ring=2F66B3&fire=D94A3A&currStreakLabel=E8F0F8&sideLabels=C7D5E3&dates=7D93AC&sideNums=E8F0F8&currStreakNum=E8F0F8" alt="Linux5real GitHub streak" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=Linux5real&show_icons=true&count_private=true&include_all_commits=true&hide_border=true&bg_color=0b0b0b&title_color=ffffff&text_color=d0d0d0&icon_color=ffffff&custom_title=Linux5real%20GitHub%20Stats" alt="Linux5real GitHub stats" />
+  <img height="170" src="https://streak-stats.demolab.com?user=Linux5real&hide_border=true&background=0B0B0B&ring=FFFFFF&fire=CFCFCF&currStreakLabel=FFFFFF&sideLabels=BDBDBD&dates=7A7A7A&sideNums=FFFFFF&currStreakNum=FFFFFF" alt="Linux5real GitHub streak" />
 </p>
 
 <p>
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Linux5real&bg_color=07111d&color=dce7f3&line=2f66b3&point=d94a3a&area=true&hide_border=true" alt="Linux5real activity graph" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Linux5real&bg_color=0b0b0b&color=d8d8d8&line=ffffff&point=b0b0b0&area=true&area_color=1b1b1b&hide_border=true" alt="Linux5real activity graph" />
 </p>
 
 ---

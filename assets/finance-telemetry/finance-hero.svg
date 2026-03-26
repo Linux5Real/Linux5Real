@@ -2,43 +2,58 @@
   
   <style>
     .ui { font-family: 'Segoe UI', Arial, sans-serif; }
-    .mono { font-family: 'JetBrains Mono', 'Fira Code', Consolas, monospace; }
-    .display { font-family: Georgia, 'Times New Roman', serif; }
-    .label { fill: #8FA7C4; font-size: 12px; letter-spacing: 1.2px; text-transform: uppercase; }
-    .value { fill: #F4F7FB; font-size: 30px; font-weight: 700; }
-    .title { fill: #F4F7FB; font-size: 29px; font-weight: 700; font-family: Georgia, 'Times New Roman', serif; }
-    .subtitle { fill: #9DB1C9; font-size: 15px; }
-    .eyebrow { fill: #D94A3A; font-size: 13px; font-weight: 700; letter-spacing: 1.8px; }
+    .mono { font-family: 'IBM Plex Mono', 'JetBrains Mono', 'Fira Code', Consolas, monospace; }
+    .display { font-family: 'Segoe UI', Arial, sans-serif; font-weight: 700; }
+    .eyebrow { fill: #FAFAFA; font-size: 12px; font-weight: 700; letter-spacing: 2.4px; text-transform: uppercase; }
+    .title { fill: #FAFAFA; font-size: 31px; font-weight: 700; }
+    .subtitle { fill: #D4D4D4; font-size: 15px; }
+    .label { fill: #A8A8A8; font-size: 11px; letter-spacing: 1.8px; text-transform: uppercase; }
+    .value { fill: #FFFFFF; font-size: 28px; font-weight: 700; }
+    .muted { fill: #8C8C8C; font-size: 12px; }
+    .grid-label { fill: #9E9E9E; font-size: 11px; }
   </style>
 
   <defs>
     <linearGradient id="hero-bg" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#08111D" />
-      <stop offset="45%" stop-color="#0E2240" />
-      <stop offset="100%" stop-color="#0A1321" />
+      <stop offset="0%" stop-color="#040404" />
+      <stop offset="50%" stop-color="#0B0B0B" />
+      <stop offset="100%" stop-color="#060606" />
     </linearGradient>
-    <linearGradient id="signal" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#2F66B3" />
-      <stop offset="50%" stop-color="#DCE7F3" />
-      <stop offset="100%" stop-color="#D94A3A" />
+    <linearGradient id="hero-scan" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0" />
+      <stop offset="50%" stop-color="#FFFFFF" stop-opacity="0.08" />
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0" />
     </linearGradient>
   </defs>
   <rect width="1280" height="320" rx="28" fill="url(#hero-bg)" />
-  <rect x="24" y="24" width="1232" height="272" rx="22" fill="#09131D" stroke="#1B3556" />
-  <rect x="24" y="24" width="1232" height="8" rx="4" fill="#15253B" />
-  <rect x="24" y="24" width="320" height="8" rx="4" fill="#D94A3A" />
-  <text x="64" y="74" class="mono" fill="#D94A3A" font-size="14" font-weight="700">ACTIVE TRADER / MARKET DESK</text>
-  <text x="64" y="132" class="display" fill="#F4F7FB" font-size="50" font-weight="700">LINUS / LINUX5REAL</text>
-  <text x="64" y="170" class="ui" fill="#A9BDD4" font-size="20">AI systems for stocks, signals, and live market context</text>
-  <text x="64" y="210" class="mono" fill="#748CA8" font-size="13">Stocks, signals, headlines, execution context, and private workflow telemetry.</text>
-  <path d="M736 190 L794 166 L842 176 L892 132 L944 146 L992 98 L1044 118 L1094 84 L1152 54" fill="none" stroke="url(#signal)" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" />
-  <circle cx="794" cy="166" r="6" fill="#2F66B3" />
-  <circle cx="944" cy="146" r="6" fill="#DCE7F3" />
-  <circle cx="1094" cy="84" r="6" fill="#D94A3A" />
-  <rect x="64" y="244" width="172" height="28" rx="14" fill="#12315B" />
-  <rect x="248" y="244" width="196" height="28" rx="14" fill="#132744" />
-  <rect x="456" y="244" width="190" height="28" rx="14" fill="#40181C" />
-  <text x="86" y="263" class="mono" fill="#F4F7FB" font-size="12">US EQUITIES</text>
-  <text x="270" y="263" class="mono" fill="#F4F7FB" font-size="12">SIGNAL ROUTING</text>
-  <text x="478" y="263" class="mono" fill="#F4F7FB" font-size="12">EXECUTION DISCIPLINE</text>
+  <rect x="24" y="24" width="1232" height="272" rx="22" fill="#080808" stroke="#2D2D2D" />
+  <rect x="-280" y="24" width="280" height="272" fill="url(#hero-scan)">
+    <animate attributeName="x" values="-280;1280" dur="7s" repeatCount="indefinite" />
+  </rect>
+  <line x1="48" y1="48" x2="1232" y2="48" stroke="#1F1F1F" />
+  <text x="68" y="78" class="mono eyebrow">MARKET TERMINAL / EXECUTION DESK</text>
+  <text x="68" y="132" class="display" fill="#FFFFFF" font-size="50">LINUS / LINUX5REAL</text>
+  <text x="68" y="170" class="ui" fill="#D6D6D6" font-size="20">AI systems for stocks, signals, and live market context</text>
+  <text x="68" y="206" class="mono" fill="#9E9E9E" font-size="13">SESSION TAPE :: NEWS / CHARTS / EXECUTION / MEMORY</text>
+  <text x="68" y="232" class="mono" fill="#767676" font-size="12">Industrial market workflow with private telemetry rendered for public view.</text>
+  <rect x="68" y="244" width="534" height="18" fill="#121212" rx="4" />
+  <rect x="68" y="244" width="0" height="18" fill="#FFFFFF" fill-opacity="0.08" rx="4">
+    <animate attributeName="width" values="0;534;534;0" dur="4.8s" repeatCount="indefinite" />
+  </rect>
+  <text x="82" y="257" class="mono" fill="#F3F3F3" font-size="12">SESSION TAPE | SIGNAL ROUTING | EXECUTION DISCIPLINE</text>
+  <rect x="590" y="246" width="8" height="12" fill="#FFFFFF">
+    <animate attributeName="opacity" values="1;1;0" dur="0.9s" repeatCount="indefinite" />
+  </rect>
+
+  <rect x="760" y="72" width="436" height="176" rx="16" fill="#060606" stroke="#262626" />
+  <text x="788" y="102" class="mono eyebrow">LIVE MARKET GRID</text>
+  <line x1="788" y1="116" x2="1168" y2="116" stroke="#1E1E1E" />
+  <path d="M800 220 L848 192 L896 204 L944 162 L992 172 L1040 136 L1088 150 L1136 104" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+  <circle cx="848" cy="192" r="5" fill="#7A7A7A" />
+  <circle cx="992" cy="172" r="5" fill="#CFCFCF" />
+  <circle cx="1136" cy="104" r="5" fill="#FFFFFF" />
+  <text x="788" y="148" class="ui label">US EQUITIES</text>
+  <text x="928" y="148" class="ui label">SIGNAL ROUTING</text>
+  <text x="1082" y="148" class="ui label">PRIVATE SYSTEMS</text>
+  <text x="788" y="242" class="ui muted">Monochrome trading desk identity built for GitHub profile telemetry.</text>
 </svg>
