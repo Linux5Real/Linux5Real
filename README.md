@@ -86,11 +86,11 @@ This system is for me first. It is being built as a private finance workspace th
 > Public-safe metrics generated from my private finance repository. This exposes activity and code telemetry, not the source code itself.
 
 <p>
-  <img src="https://raw.githubusercontent.com/Linux5Real/Linux5Real/c810f12f52bdd628ebfd50342ca3159ccf644c6f/assets/finance-telemetry/finance-repo-telemetry.svg" alt="Finance repo telemetry" />
+  <img src="https://github.com/Linux5Real/Linux5Real/blob/c810f12df9406a2fa1b16399d057b89a8e887dec/assets/finance-telemetry/finance-repo-telemetry.svg?raw=1" alt="Finance repo telemetry" />
 </p>
 
 <p>
-  <img src="https://raw.githubusercontent.com/Linux5Real/Linux5Real/c810f12f52bdd628ebfd50342ca3159ccf644c6f/assets/finance-telemetry/finance-repo-activity.svg" alt="Finance repo activity" />
+  <img src="https://github.com/Linux5Real/Linux5Real/blob/c810f12df9406a2fa1b16399d057b89a8e887dec/assets/finance-telemetry/finance-repo-activity.svg?raw=1" alt="Finance repo activity" />
 </p>
 
 ## Profile Signals
