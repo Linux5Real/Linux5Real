@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="320" viewBox="0 0 1280 320" role="img" aria-label="LINUS / LINUX5REAL">
+  
+  <style>
+    .ui { font-family: 'Segoe UI', Arial, sans-serif; }
+    .mono { font-family: 'JetBrains Mono', 'Fira Code', Consolas, monospace; }
+    .label { fill: #8AA0B6; font-size: 12px; letter-spacing: 1.2px; text-transform: uppercase; }
+    .value { fill: #EAF2F8; font-size: 30px; font-weight: 700; }
+    .title { fill: #EAF2F8; font-size: 28px; font-weight: 700; }
+    .subtitle { fill: #8AA0B6; font-size: 15px; }
+    .eyebrow { fill: #5CE1A5; font-size: 14px; font-weight: 700; letter-spacing: 1.4px; }
+  </style>
+
+  <defs>
+    <linearGradient id="hero-bg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#050A0F" />
+      <stop offset="45%" stop-color="#0A1824" />
+      <stop offset="100%" stop-color="#071B16" />
+    </linearGradient>
+    <linearGradient id="signal" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#F87171" />
+      <stop offset="50%" stop-color="#5CE1A5" />
+      <stop offset="100%" stop-color="#2BB6D8" />
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="320" rx="28" fill="url(#hero-bg)" />
+  <rect x="24" y="24" width="1232" height="272" rx="22" fill="#09131D" stroke="#183246" />
+  <text x="64" y="72" class="mono" fill="#5CE1A5" font-size="14" font-weight="700">FINANCE SIGNAL ENGINE</text>
+  <text x="64" y="128" class="ui" fill="#EAF2F8" font-size="46" font-weight="700">LINUS / LINUX5REAL</text>
+  <text x="64" y="166" class="ui" fill="#9BB1C5" font-size="19">AI systems for stocks, signals, and live market context</text>
+  <text x="64" y="208" class="mono" fill="#7E92A5" font-size="13">Watching stocks, news, catalysts, execution, and private trader context.</text>
+  <path d="M730 182 L808 182 L858 124 L923 124 L979 86 L1038 142 L1098 110 L1160 52" fill="none" stroke="url(#signal)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+  <circle cx="808" cy="182" r="6" fill="#F87171" />
+  <circle cx="923" cy="124" r="6" fill="#5CE1A5" />
+  <circle cx="1160" cy="52" r="6" fill="#2BB6D8" />
+  <rect x="64" y="246" width="180" height="28" rx="14" fill="#0D2033" />
+  <rect x="254" y="246" width="214" height="28" rx="14" fill="#0F2B20" />
+  <rect x="478" y="246" width="184" height="28" rx="14" fill="#10283A" />
+  <text x="84" y="265" class="mono" fill="#EAF2F8" font-size="12">AI SYSTEMS</text>
+  <text x="274" y="265" class="mono" fill="#EAF2F8" font-size="12">LIVE CONTEXT</text>
+  <text x="498" y="265" class="mono" fill="#EAF2F8" font-size="12">STOCK SIGNALS</text>
+</svg>
