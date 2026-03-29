@@ -2,13 +2,21 @@
   <img src="https://raw.githubusercontent.com/Linux5Real/Linux5Real/main/assets/finance-telemetry/finance-hero.svg" alt="Linus / Linux5Real market terminal banner" />
 </div>
 
-```text
-[ MARKET TERMINAL ] [ SIGNAL ROUTING ] [ EXECUTION DISCIPLINE ]
-[ LOCATION: GERMANY ] [ AGE: 18 ] [ TRADING: SWING TO DAY ] [ PLATFORM: LINUX / DEBIAN ]
-[ VERSIONING: GIT / GITHUB ] [ FOCUS: STOCKS / FINANCE / AI SYSTEMS ]
+<br>
+
+<div align="center">
+
+```
+[ LINUS ] [ LINUX5REAL ] [ GERMANY ] [ AGE: 18 ]
+[ SWING → DAY ] [ STOCKS ] [ FINANCE ] [ AI SYSTEMS ]
+[ LINUX · DEBIAN · GIT · GITHUB ] [ PRIVATE BUILDS FIRST ]
 ```
 
-## Desk Profile
+</div>
+
+---
+
+## DESK PROFILE
 
 I am Linus, an 18-year-old builder from Germany working where AI systems, stocks, and live market context meet.
 
@@ -19,9 +27,9 @@ I am not trying to be a generic fullstack developer. My focus is building privat
 - Comfortable with Linux, Debian, Git, and GitHub as daily operating tools
 - Former FiveM scripter with a practical background in released scripts and fast iteration
 
-## Active Position
+---
 
-### Finance Signal Engine
+## ACTIVE POSITION — FINANCE SIGNAL ENGINE
 
 > A private finance AI system built to watch the market the way I trade it: through charts, headlines, catalysts, execution history, and personal context.
 
@@ -38,7 +46,7 @@ This is not meant to be a generic assistant with a finance skin. The goal is to 
 
 This system is for me first. It is being built as a private finance workspace that can connect live market information with my own execution behavior, not as a surface-level chatbot. If it grows into something strong enough, parts of it may eventually become open source.
 
-## Market Coverage
+**Market streams**
 
 | Stream | Status |
 | --- | --- |
@@ -49,7 +57,9 @@ This system is for me first. It is being built as a private finance workspace th
 | Trade memory | Connected |
 | Emotional layer | Planned |
 
-## Operating Bias
+---
+
+## OPERATING BIAS
 
 - Real workflow over template builds
 - Signal quality over noise
@@ -57,13 +67,11 @@ This system is for me first. It is being built as a private finance workspace th
 - Private tools over hype projects
 - Discipline and execution over empty automation
 
-## Stack and Model Desk
+---
 
-### Core Stack
+## STACK + MODEL DESK
 
 `Python` `JavaScript` `HTML` `CSS` `Linux` `Debian` `Git` `GitHub` `VS Code`
-
-### Models and Workflow
 
 | Layer | Current Setup |
 | --- | --- |
@@ -74,36 +82,38 @@ This system is for me first. It is being built as a private finance workspace th
 | Build focus | Private AI systems |
 | System bias | Signal routing |
 
-## Background
+---
+
+## BACKGROUND
 
 - Deep in the AI space and actively tracking new model capabilities
 - Focused on finance, stocks, and market-moving information flow
 - Built multiple private AI projects to test ideas in real conditions
 - Earlier coding experience in FiveM with shipped scripts and practical release work
 
-## Finance Repo Telemetry
+---
 
-> Public-safe metrics generated from my private finance repository. This exposes activity and code telemetry, not the source code itself.
+<div align="center">
+  <img src="https://raw.githubusercontent.com/Linux5Real/Linux5Real/main/assets/finance-telemetry/finance-repo-telemetry.svg" alt="Finance Signal Engine — code telemetry" />
+</div>
 
-<p>
-  <img src="https://raw.githubusercontent.com/Linux5Real/Linux5Real/main/assets/finance-telemetry/finance-repo-telemetry.svg" alt="Finance repo telemetry" />
-</p>
+<div align="center">
+  <img src="https://raw.githubusercontent.com/Linux5Real/Linux5Real/main/assets/finance-telemetry/finance-repo-activity.svg" alt="Finance Signal Engine — execution tape" />
+</div>
 
-<p>
-  <img src="https://raw.githubusercontent.com/Linux5Real/Linux5Real/main/assets/finance-telemetry/finance-repo-activity.svg" alt="Finance repo activity" />
-</p>
+---
 
-## Profile Signals
+## PROFILE SIGNALS
 
-<p>
+<p align="center">
   <img height="170" src="https://github-readme-stats.vercel.app/api?username=Linux5real&show_icons=true&count_private=true&include_all_commits=true&hide_border=true&bg_color=0b0b0b&title_color=ffffff&text_color=d0d0d0&icon_color=ffffff&custom_title=Linux5real%20GitHub%20Stats" alt="Linux5real GitHub stats" />
   <img height="170" src="https://streak-stats.demolab.com?user=Linux5real&hide_border=true&background=0B0B0B&ring=FFFFFF&fire=CFCFCF&currStreakLabel=FFFFFF&sideLabels=BDBDBD&dates=7A7A7A&sideNums=FFFFFF&currStreakNum=FFFFFF" alt="Linux5real GitHub streak" />
 </p>
 
-<p>
+<p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=Linux5real&bg_color=0b0b0b&color=d8d8d8&line=ffffff&point=b0b0b0&area=true&area_color=1b1b1b&hide_border=true" alt="Linux5real activity graph" />
 </p>
 
 ---
 
-Building private AI systems where stock signals, market context, and execution discipline converge.
+<div align="center">Building private AI systems where stock signals, market context, and execution discipline converge.</div>
