@@ -1,42 +1,153 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="920" height="260" viewBox="0 0 920 260" role="img" aria-label="Linus">
-  
-  <style>
-    .ui { font-family: 'Segoe UI', Arial, sans-serif; }
-    .mono { font-family: 'IBM Plex Mono', 'JetBrains Mono', 'Fira Code', Consolas, monospace; }
-    .display { font-family: 'Segoe UI', Arial, sans-serif; font-weight: 700; }
-    .eyebrow { fill: #FAFAFA; font-size: 12px; font-weight: 700; letter-spacing: 2.4px; text-transform: uppercase; }
-    .title { fill: #FAFAFA; font-size: 31px; font-weight: 700; }
-    .subtitle { fill: #D4D4D4; font-size: 15px; }
-    .label { fill: #A8A8A8; font-size: 11px; letter-spacing: 1.8px; text-transform: uppercase; }
-    .value { fill: #FFFFFF; font-size: 28px; font-weight: 700; }
-    .muted { fill: #8C8C8C; font-size: 12px; }
-    .grid-label { fill: #9E9E9E; font-size: 11px; }
-  </style>
+<svg width="920" height="300" viewBox="0 0 920 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;600;700&amp;display=swap');
+      text { font-family: 'JetBrains Mono', monospace; }
+    </style>
+  </defs>
 
-  <rect width="920" height="260" rx="24" fill="#020202" />
-  <rect x="20" y="20" width="880" height="220" rx="18" fill="#080808" stroke="#2D2D2D" />
-  <line x1="40" y1="42" x2="880" y2="42" stroke="#1F1F1F" />
-  <line x1="486" y1="60" x2="486" y2="220" stroke="#181818" />
+  <!-- background + border -->
+  <rect width="920" height="300" rx="14" fill="#000"/>
+  <rect width="920" height="300" rx="14" fill="none" stroke="#181818" stroke-width="1"/>
+  <!-- top white accent line -->
+  <rect x="0" y="0" width="920" height="3" rx="0" fill="#fff" opacity="0"/>
 
-  <text x="52" y="66" class="mono eyebrow">PRIVATE BUILDER / FINANCE AI / GERMANY</text>
-  <text x="52" y="118" class="display" fill="#FFFFFF" font-size="52">Linus</text>
-  <text x="54" y="144" class="mono" fill="#8F8F8F" font-size="17">@Linux5Real</text>
+  <!-- ===== HEADER STRIP ===== -->
+  <rect x="0" y="0" width="920" height="52" rx="14" fill="#090909"/>
+  <rect x="0" y="38" width="920" height="14" fill="#090909"/>
+  <rect x="0" y="52" width="920" height="1" fill="#111"/>
+  <!-- pill tag -->
+  <rect x="24" y="16" width="72" height="22" rx="4" fill="#111" stroke="#252525" stroke-width="1"/>
+  <circle cx="38" cy="27" r="3" fill="#fff"/>
+  <text x="47" y="31" font-size="10" font-weight="700" fill="#7a7a7a" letter-spacing="1.5">PROFILE</text>
+  <!-- title -->
+  <text x="112" y="31" font-size="14" font-weight="700" fill="#f0f0f0">Linus</text>
+  <text x="162" y="31" font-size="12" font-weight="300" fill="#303030"> · @Linux5Real</text>
+  <!-- right info -->
+  <text x="820" y="31" font-size="10" font-weight="400" fill="#2a2a2a" text-anchor="end">Germany · Age 18</text>
 
-  <text x="52" y="182" class="ui" fill="#D8D8D8" font-size="16">Building private finance AI systems for market context,</text>
-  <text x="52" y="206" class="ui" fill="#D8D8D8" font-size="16">execution workflow, and sharper trading decisions.</text>
+  <!-- ===== VERTICAL DIVIDERS ===== -->
+  <!-- left col divider at x=260 -->
+  <rect x="260" y="52" width="1" height="210" fill="#111"/>
+  <!-- right col divider at x=740 -->
+  <rect x="740" y="52" width="1" height="210" fill="#111"/>
+  <!-- icon strip top border -->
+  <rect x="261" y="212" width="478" height="1" fill="#111"/>
 
-  <rect x="52" y="214" width="394" height="12" fill="#111111" rx="4" />
-  <text x="64" y="223" class="mono" fill="#F3F3F3" font-size="10">PRIVATE SYSTEMS :: MARKET CONTEXT :: EXECUTION DISCIPLINE</text>
+  <!-- ===== LEFT: NAME BLOCK ===== -->
+  <!-- label -->
+  <text x="24" y="84" font-size="10" font-weight="700" fill="#444" letter-spacing="2">BUILDER · TRADER</text>
+  <!-- big name -->
+  <text x="24" y="148" font-size="62" font-weight="900" fill="#fff" letter-spacing="-2">Linus</text>
+  <!-- bio -->
+  <text x="24" y="172" font-size="11" font-weight="400" fill="#555">Building private finance AI systems</text>
+  <text x="24" y="188" font-size="11" font-weight="400" fill="#555">for market context and execution.</text>
+  <!-- footer mono -->
+  <text x="24" y="246" font-size="9" font-weight="400" fill="#222" letter-spacing="1.2">PRIVATE SYSTEMS · MARKET CONTEXT</text>
 
-  <rect x="522" y="64" width="322" height="44" rx="12" fill="#060606" stroke="#222222" />
-  <text x="540" y="84" class="mono eyebrow">FOCUS</text>
-  <text x="540" y="99" class="ui muted">Finance AI, market context, execution workflow.</text>
+  <!-- ===== MIDDLE: 3 sub-columns (Focus / Trading / Build) ===== -->
+  <!-- inner divider at x=420 -->
+  <rect x="420" y="52" width="1" height="160" fill="#111"/>
+  <!-- inner divider at x=580 -->
+  <rect x="580" y="52" width="1" height="160" fill="#111"/>
 
-  <rect x="522" y="118" width="322" height="44" rx="12" fill="#060606" stroke="#222222" />
-  <text x="540" y="138" class="mono eyebrow">STACK</text>
-  <text x="540" y="153" class="ui muted">Python, JavaScript, Linux, Git, PostgreSQL.</text>
+  <!-- FOCUS -->
+  <text x="278" y="80" font-size="10" font-weight="700" fill="#444" letter-spacing="2">FOCUS</text>
+  <text x="278" y="104" font-size="13" font-weight="700" fill="#fff">Finance AI</text>
+  <text x="278" y="122" font-size="11" font-weight="400" fill="#444">Market context</text>
+  <text x="278" y="138" font-size="11" font-weight="400" fill="#444">Execution workflow</text>
+  <text x="278" y="154" font-size="11" font-weight="400" fill="#444">Signal routing</text>
 
-  <rect x="522" y="172" width="322" height="44" rx="12" fill="#060606" stroke="#222222" />
-  <text x="540" y="192" class="mono eyebrow">CURRENT BUILD</text>
-  <text x="540" y="207" class="ui muted">Gemini 3 Flash / private trading desk.</text>
+  <!-- TRADING -->
+  <text x="438" y="80" font-size="10" font-weight="700" fill="#444" letter-spacing="2">TRADING</text>
+  <text x="438" y="104" font-size="13" font-weight="700" fill="#fff">Swing → Day</text>
+  <text x="438" y="122" font-size="11" font-weight="400" fill="#444">Stocks &amp; catalysts</text>
+  <text x="438" y="138" font-size="11" font-weight="400" fill="#444">US equities</text>
+  <text x="438" y="154" font-size="11" font-weight="400" fill="#444">Chart-driven</text>
+
+  <!-- CURRENT BUILD -->
+  <text x="598" y="80" font-size="10" font-weight="700" fill="#444" letter-spacing="2">CURRENT BUILD</text>
+  <text x="598" y="104" font-size="13" font-weight="700" fill="#fff">Signal Engine</text>
+  <text x="598" y="122" font-size="11" font-weight="400" fill="#444">DeepSeek &amp; Grok</text>
+  <text x="598" y="138" font-size="11" font-weight="400" fill="#444">Private trading desk</text>
+  <text x="598" y="154" font-size="11" font-weight="400" fill="#444">AI model routing</text>
+
+  <!-- ===== ICON STRIP (y=213 to y=262) ===== -->
+  <!-- Python -->
+  <rect x="272" y="220" width="28" height="28" rx="6" fill="#111"/>
+  <text x="286" y="239" font-size="9" font-weight="700" fill="#888" text-anchor="middle">PY</text>
+  <text x="286" y="256" font-size="8" font-weight="600" fill="#2a2a2a" text-anchor="middle" letter-spacing="0.5">Python</text>
+
+  <!-- JS -->
+  <rect x="314" y="220" width="28" height="28" rx="6" fill="#111"/>
+  <text x="328" y="239" font-size="9" font-weight="700" fill="#888" text-anchor="middle">JS</text>
+  <text x="328" y="256" font-size="8" font-weight="600" fill="#2a2a2a" text-anchor="middle" letter-spacing="0.5">JS</text>
+
+  <!-- HTML -->
+  <rect x="356" y="220" width="28" height="28" rx="6" fill="#111"/>
+  <text x="370" y="239" font-size="8" font-weight="700" fill="#888" text-anchor="middle">HTML</text>
+  <text x="370" y="256" font-size="8" font-weight="600" fill="#2a2a2a" text-anchor="middle" letter-spacing="0.5">HTML</text>
+
+  <!-- CSS -->
+  <rect x="398" y="220" width="28" height="28" rx="6" fill="#111"/>
+  <text x="412" y="239" font-size="9" font-weight="700" fill="#888" text-anchor="middle">CSS</text>
+  <text x="412" y="256" font-size="8" font-weight="600" fill="#2a2a2a" text-anchor="middle" letter-spacing="0.5">CSS</text>
+
+  <!-- Linux -->
+  <rect x="440" y="220" width="28" height="28" rx="6" fill="#111"/>
+  <text x="454" y="239" font-size="8" font-weight="700" fill="#888" text-anchor="middle">LNX</text>
+  <text x="454" y="256" font-size="8" font-weight="600" fill="#2a2a2a" text-anchor="middle" letter-spacing="0.5">Linux</text>
+
+  <!-- Git -->
+  <rect x="482" y="220" width="28" height="28" rx="6" fill="#111"/>
+  <text x="496" y="239" font-size="9" font-weight="700" fill="#888" text-anchor="middle">GIT</text>
+  <text x="496" y="256" font-size="8" font-weight="600" fill="#2a2a2a" text-anchor="middle" letter-spacing="0.5">Git</text>
+
+  <!-- GitHub -->
+  <rect x="524" y="220" width="28" height="28" rx="6" fill="#111"/>
+  <text x="538" y="239" font-size="8" font-weight="700" fill="#888" text-anchor="middle">GH</text>
+  <text x="538" y="256" font-size="8" font-weight="600" fill="#2a2a2a" text-anchor="middle" letter-spacing="0.5">GitHub</text>
+
+  <!-- VS Code -->
+  <rect x="566" y="220" width="28" height="28" rx="6" fill="#111"/>
+  <text x="580" y="239" font-size="8" font-weight="700" fill="#888" text-anchor="middle">VSC</text>
+  <text x="580" y="256" font-size="8" font-weight="600" fill="#2a2a2a" text-anchor="middle" letter-spacing="0.5">VSCode</text>
+
+  <!-- DeepSeek -->
+  <rect x="608" y="220" width="28" height="28" rx="6" fill="#111"/>
+  <text x="622" y="239" font-size="8" font-weight="700" fill="#888" text-anchor="middle">DS</text>
+  <text x="622" y="256" font-size="8" font-weight="600" fill="#2a2a2a" text-anchor="middle" letter-spacing="0.5">DeepSeek</text>
+
+  <!-- Grok -->
+  <rect x="650" y="220" width="28" height="28" rx="6" fill="#111"/>
+  <text x="664" y="239" font-size="9" font-weight="700" fill="#888" text-anchor="middle">GRK</text>
+  <text x="664" y="256" font-size="8" font-weight="600" fill="#2a2a2a" text-anchor="middle" letter-spacing="0.5">Grok</text>
+
+  <!-- ===== RIGHT: TAG CLOUD ===== -->
+  <text x="758" y="80" font-size="10" font-weight="700" fill="#444" letter-spacing="2">IDENTITY</text>
+
+  <!-- tag 1: Private Builder (bright) -->
+  <rect x="758" y="90" width="140" height="22" rx="4" fill="#fff"/>
+  <text x="828" y="105" font-size="10" font-weight="700" fill="#000" text-anchor="middle" letter-spacing="1">PRIVATE BUILDER</text>
+
+  <!-- tag 2 -->
+  <rect x="758" y="118" width="100" height="20" rx="4" fill="#111" stroke="#2a2a2a" stroke-width="1"/>
+  <text x="808" y="132" font-size="10" font-weight="600" fill="#888" text-anchor="middle" letter-spacing="1">FINANCE AI</text>
+
+  <!-- tag 3 -->
+  <rect x="758" y="144" width="126" height="20" rx="4" fill="#0d0d0d" stroke="#1e1e1e" stroke-width="1"/>
+  <text x="821" y="158" font-size="10" font-weight="600" fill="#555" text-anchor="middle" letter-spacing="1">MARKET CONTEXT</text>
+
+  <!-- tag 4 -->
+  <rect x="758" y="170" width="150" height="20" rx="4" fill="#0d0d0d" stroke="#1e1e1e" stroke-width="1"/>
+  <text x="833" y="184" font-size="10" font-weight="600" fill="#555" text-anchor="middle" letter-spacing="1">EXECUTION DISCIPLINE</text>
+
+  <!-- tag 5 -->
+  <rect x="758" y="196" width="110" height="20" rx="4" fill="#0d0d0d" stroke="#1e1e1e" stroke-width="1"/>
+  <text x="813" y="210" font-size="10" font-weight="600" fill="#555" text-anchor="middle" letter-spacing="1">SWING → DAY</text>
+
+  <!-- tag 6 -->
+  <rect x="758" y="222" width="70" height="20" rx="4" fill="#0d0d0d" stroke="#1e1e1e" stroke-width="1"/>
+  <text x="793" y="236" font-size="10" font-weight="600" fill="#555" text-anchor="middle" letter-spacing="1">GERMANY</text>
+
 </svg>
