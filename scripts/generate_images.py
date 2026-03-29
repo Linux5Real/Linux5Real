@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 import json
 import base64
+from datetime import date, timedelta
 from pathlib import Path
 from playwright.sync_api import sync_playwright
 
@@ -8,6 +9,8 @@ ROOT = Path(__file__).parent.parent
 DATA_FILE = ROOT / "assets/finance-telemetry/finance-repo-telemetry.json"
 OUT_DIR = ROOT / "assets/finance-telemetry"
 HERO_SVG_FILE = OUT_DIR / "finance-hero.svg"
+MONTH_ABBREVIATIONS = ("Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec")
+WEEKDAY_LABELS = ("Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun")
 
 # Stell sicher, dass das Ausgabe-Verzeichnis existiert
 OUT_DIR.mkdir(parents=True, exist_ok=True)
@@ -15,6 +18,40 @@ OUT_DIR.mkdir(parents=True, exist_ok=True)
 def load_data() -> dict:
     with open(DATA_FILE) as f:
         return json.load(f)
+
+
+def format_compact_date(value: date) -> str:
+    return f"{MONTH_ABBREVIATIONS[value.month - 1]} {value.day:02d}"
+
+
+def count_active_days(series: list[int]) -> int:
+    return sum(1 for count in series if count > 0)
+
+
+def current_activity_streak(series: list[int]) -> int:
+    streak = 0
+    for count in reversed(series):
+        if count > 0:
+            streak += 1
+        elif streak:
+            break
+    return streak
+
+
+def color_for_count(count: int, max_count: int) -> str:
+    if count <= 0:
+        return "#0d0d0d"
+    if max_count <= 1:
+        return "#ffffff"
+
+    ratio = count / max_count
+    if ratio < 0.25:
+        return "#252525"
+    if ratio < 0.5:
+        return "#404040"
+    if ratio < 0.75:
+        return "#7a7a7a"
+    return "#ffffff"
 
 # Gemeinsame CSS-Klassen und Fonts für beide Bilder
 GLOBAL_CSS = """
@@ -219,8 +256,68 @@ def generate_telemetry_html(data: dict) -> str:
     """
     return html
 
-def generate_activity_html() -> str:
-    # Platzhalter für das zweite Bild ("Execution Tape" / Activity)
+def generate_activity_html(data: dict | None = None) -> str:
+    data = data or load_data()
+    activity = data["activity"]
+    series = activity.get("activity_series", [])[-84:]
+    if len(series) < 84:
+        series = ([0] * (84 - len(series))) + series
+
+    max_count = max(series) if series else 0
+    active_days = count_active_days(series)
+    streak = current_activity_streak(series)
+    peak = max_count
+    total_commits = activity.get("total_commits", 0)
+    commits_30d = activity.get("commits_last_30_days", 0)
+    last_commit_raw = activity.get("last_commit_date")
+    end_date = date.fromisoformat(last_commit_raw) if last_commit_raw else date.today()
+    start_date = end_date - timedelta(days=83)
+    grid_start = start_date - timedelta(days=start_date.weekday())
+    week_count = ((end_date - grid_start).days // 7) + 1
+    count_by_date = {start_date + timedelta(days=i): count for i, count in enumerate(series)}
+
+    cell = 16
+    gap = 4
+    step = cell + gap
+    grid_y = 22
+
+    cells = []
+    month_labels = []
+    seen_months: set[int] = set()
+    current_date = grid_start
+    grid_end = grid_start + timedelta(days=week_count * 7 - 1)
+    while current_date <= grid_end:
+        week_index = (current_date - grid_start).days // 7
+        day_index = current_date.weekday()
+        x = week_index * step
+        y = grid_y + day_index * step
+        count = count_by_date.get(current_date, 0)
+        color = color_for_count(count, max_count)
+        cells.append(
+            f'<div title="{format_compact_date(current_date)}: {count} commit{"s" if count != 1 else ""}" '
+            f'style="position:absolute;left:{x}px;top:{y}px;width:{cell}px;height:{cell}px;border-radius:3px;background:{color};"></div>'
+        )
+        if current_date.month not in seen_months:
+            seen_months.add(current_date.month)
+            month_labels.append(
+                f'<div style="position:absolute;left:{week_index * step}px;top:0;font-size:10px;color:#3a3a3a;'
+                f'font-family:var(--font-mono);font-weight:600;letter-spacing:0.06em;white-space:nowrap;">'
+                f'{MONTH_ABBREVIATIONS[current_date.month - 1]}</div>'
+            )
+        current_date += timedelta(days=1)
+
+    grid_width = week_count * step
+    grid_height = grid_y + 7 * step
+
+    weekday_labels = ""
+    for index, weekday in enumerate(WEEKDAY_LABELS):
+        if index % 2 == 0:
+            weekday_labels += (
+                f'<div style="position:absolute;right:0;top:{grid_y + index * step}px;height:{cell}px;display:flex;'
+                f'align-items:center;font-size:9px;color:#2a2a2a;font-family:var(--font-mono);font-weight:600;'
+                f'letter-spacing:0.06em;">{weekday}</div>'
+            )
+
     html = f"""
     <!DOCTYPE html>
     <html lang="en">
@@ -230,24 +327,106 @@ def generate_activity_html() -> str:
         <style>
             body {{
                 width: 920px;
-                height: 150px;
-                border-top: 3px solid #A0A0A0;
+                height: 320px;
+                border-top: 3px solid #FFFFFF;
             }}
-            .tape-container {{
-                padding: 20px 40px;
-                color: #444;
-                font-size: 12px;
+            .activity-wrap {{
+                display: flex;
+                height: 268px;
+            }}
+            .activity-stats {{
+                width: 300px;
+                flex-shrink: 0;
+                border-right: 1px solid var(--border-color);
+                padding: 20px 24px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+            }}
+            .stats-grid {{
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                gap: 16px 24px;
+            }}
+            .metric-label {{
+                color: var(--text-secondary);
+                font-size: 10px;
+                font-weight: 700;
+                letter-spacing: 2px;
+                text-transform: uppercase;
+                margin-bottom: 6px;
+            }}
+            .metric-value {{
+                font-size: 36px;
+                font-weight: 700;
+                line-height: 1;
+            }}
+            .total-block {{
+                border-top: 1px solid var(--border-color);
+                padding-top: 14px;
+            }}
+            .total-value {{
+                font-size: 28px;
+                font-weight: 800;
+                line-height: 1;
+            }}
+            .total-sub {{
+                font-size: 10px;
+                color: #2A2A2A;
+                letter-spacing: 1px;
+                margin-top: 6px;
+            }}
+            .activity-grid {{
+                flex: 1;
+                padding: 16px 24px;
+                display: flex;
+                align-items: center;
+                overflow: hidden;
             }}
         </style>
     </head>
     <body>
         <div class="header">
             <div class="pill">EXECUTION TAPE</div>
-            <div class="title">RECENT SIGNAL ACTIVITY <span class="subtitle">· LIVE FEED [Placeholder]</span></div>
+            <div class="title">RECENT SIGNAL ACTIVITY <span class="subtitle">· 84-day commit grid</span></div>
         </div>
-        <div class="tape-container">
-            // LIVE SIGNAL FEED WILL APPEAR HERE<br>
-            // waiting for signal engine deployment...
+        <div class="activity-wrap">
+            <div class="activity-stats">
+                <div class="stats-grid">
+                    <div>
+                        <div class="metric-label">30D Commits</div>
+                        <div class="metric-value">{commits_30d}</div>
+                    </div>
+                    <div>
+                        <div class="metric-label">Active Days</div>
+                        <div class="metric-value">{active_days}</div>
+                    </div>
+                    <div>
+                        <div class="metric-label">Peak Day</div>
+                        <div class="metric-value">{peak}</div>
+                    </div>
+                    <div>
+                        <div class="metric-label">Streak</div>
+                        <div class="metric-value">{streak}d</div>
+                    </div>
+                </div>
+                <div class="total-block">
+                    <div class="metric-label">Total Commits</div>
+                    <div class="total-value">{total_commits}</div>
+                    <div class="total-sub">LAST SIGNAL · {format_compact_date(end_date)}</div>
+                </div>
+            </div>
+            <div class="activity-grid">
+                <div style="display:flex;align-items:flex-start;gap:10px;width:100%;">
+                    <div style="position:relative;width:28px;flex-shrink:0;height:{grid_height}px;">
+                        {weekday_labels}
+                    </div>
+                    <div style="position:relative;width:{grid_width}px;height:{grid_height}px;flex-shrink:0;">
+                        {''.join(month_labels)}
+                        {''.join(cells)}
+                    </div>
+                </div>
+            </div>
         </div>
     </body>
     </html>
@@ -285,7 +464,7 @@ def main() -> None:
     
     html_hero = generate_hero_html()
     html_telemetry = generate_telemetry_html(data)
-    html_activity = generate_activity_html()
+    html_activity = generate_activity_html(data)
     
     # Playwright starten
     with sync_playwright() as p:
@@ -303,8 +482,7 @@ def main() -> None:
         page_tele.screenshot(path=str(OUT_DIR / "finance-repo-telemetry.png"))
         print("Generated: finance-repo-telemetry.png")
         
-        # Activity Image generieren (flacher)
-        page_acti = browser.new_page(viewport={'width': 920, 'height': 150})
+        page_acti = browser.new_page(viewport={'width': 920, 'height': 320})
         page_acti.set_content(html_activity)
         page_acti.wait_for_load_state('networkidle') # Warten auf Fonts
         page_acti.screenshot(path=str(OUT_DIR / "finance-repo-activity.png"))
