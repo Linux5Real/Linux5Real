@@ -57,12 +57,18 @@ def generate_telemetry_svg(data: dict) -> str:
     sorted_langs = sorted(langs.items(), key=lambda x: x[1], reverse=True)[:4]
     max_lines = sorted_langs[0][1] if sorted_langs else 0
 
-    # Full-width bars: x=40 to x=880 (width=840)
+    # Full-width bars: x=40 to x=880 (BAR_W=840)
     BAR_X = 40
     BAR_W = 840
+    # Lang section starts at y=189, rows stride=34:
+    # row0 text=202, bar=209-216  bottom=216
+    # row1 text=236, bar=243-250  bottom=250
+    # row2 text=270, bar=277-284  bottom=284
+    # row3 text=304, bar=311-318  bottom=318
+    # footer line at y=326, total height=340
 
     lang_rows = ""
-    ry = 200
+    ry = 202
     for i, (lang, lines) in enumerate(sorted_langs):
         bar_fill = min(BAR_W, int(BAR_W * lines / max_lines)) if max_lines > 0 else 0
         gray = 238 - int(96 * i / max(len(sorted_langs) - 1, 1))
@@ -70,15 +76,15 @@ def generate_telemetry_svg(data: dict) -> str:
         lang_rows += f"""
   <text x="{BAR_X}" y="{ry}" {MONO} fill="#CCCCCC" font-size="11" font-weight="500">{escape(lang)}</text>
   <text x="878" y="{ry}" {MONO} fill="#4A4A4A" font-size="10" text-anchor="end">{escape(fmt_number(lines))} lines</text>
-  <rect x="{BAR_X}" y="{ry + 6}" width="{BAR_W}" height="7" fill="#101010" />
-  <rect x="{BAR_X}" y="{ry + 6}" width="{bar_fill}" height="7" fill="{color}" />"""
-        ry += 36
+  <rect x="{BAR_X}" y="{ry + 7}" width="{BAR_W}" height="7" fill="#0F0F0F" />
+  <rect x="{BAR_X}" y="{ry + 7}" width="{bar_fill}" height="7" fill="{color}" />"""
+        ry += 34
 
-    return f"""<svg xmlns="http://www.w3.org/2000/svg" width="920" height="332" viewBox="0 0 920 332" role="img" aria-label="Finance Signal Engine — Code Telemetry">
+    return f"""<svg xmlns="http://www.w3.org/2000/svg" width="920" height="340" viewBox="0 0 920 340" role="img" aria-label="Finance Signal Engine — Code Telemetry">
   <title>Finance Signal Engine — Code Telemetry</title>
 
   <!-- flat dark background -->
-  <rect width="920" height="332" fill="#050505" />
+  <rect width="920" height="340" fill="#050505" />
 
   <!-- white top accent — Bloomberg-style -->
   <rect x="0" y="0" width="920" height="3" fill="#FFFFFF" />
@@ -139,9 +145,9 @@ def generate_telemetry_svg(data: dict) -> str:
 {lang_rows}
 
   <!-- footer strip -->
-  <line x1="0" y1="320" x2="920" y2="320" stroke="#141414" />
-  <rect x="0" y="320" width="920" height="12" fill="#060606" />
-  <text x="40" y="329" {MONO} fill="#303030" font-size="8" letter-spacing="0.5">source-safe  ·  activity exposed, code withheld  ·  last scan {last_commit}</text>
+  <line x1="0" y1="328" x2="920" y2="328" stroke="#141414" />
+  <rect x="0" y="328" width="920" height="12" fill="#060606" />
+  <text x="40" y="337" {MONO} fill="#303030" font-size="8" letter-spacing="0.5">source-safe  ·  activity exposed, code withheld  ·  last scan {last_commit}</text>
 </svg>"""
 
 
@@ -151,10 +157,13 @@ def generate_activity_svg(data: dict) -> str:
     last_commit_str = activity["last_commit_date"]
 
     COLS, ROWS = 12, 7
-    CELL_W, CELL_H = 42, 22
-    COL_GAP, ROW_GAP = 20, 8
-    COL_STRIDE = CELL_W + COL_GAP   # 62
-    ROW_STRIDE = CELL_H + ROW_GAP   # 30
+    # Grid starts at GRID_X=402, must end before x=900
+    # Available = 900 - 402 = 498px for 12 cols
+    # COL_STRIDE = 41 → 12*41 = 492, last cell ends at 402+11*41+26 = 879 ✓
+    CELL_W, CELL_H = 26, 20
+    COL_GAP, ROW_GAP = 15, 9
+    COL_STRIDE = CELL_W + COL_GAP   # 41
+    ROW_STRIDE = CELL_H + ROW_GAP   # 29
 
     series = list(activity["activity_series"])[-COLS * ROWS:]
     active_days = sum(1 for x in series if x > 0)

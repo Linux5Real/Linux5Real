@@ -1,8 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="920" height="332" viewBox="0 0 920 332" role="img" aria-label="Finance Signal Engine — Code Telemetry">
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="340" viewBox="0 0 920 340" role="img" aria-label="Finance Signal Engine — Code Telemetry">
   <title>Finance Signal Engine — Code Telemetry</title>
 
   <!-- flat dark background -->
-  <rect width="920" height="332" fill="#050505" />
+  <rect width="920" height="340" fill="#050505" />
 
   <!-- white top accent — Bloomberg-style -->
   <rect x="0" y="0" width="920" height="3" fill="#FFFFFF" />
@@ -61,25 +61,25 @@
   <line x1="0" y1="189" x2="920" y2="189" stroke="#161616" />
 
 
-  <text x="40" y="200" font-family='IBM Plex Mono, JetBrains Mono, Fira Code, Consolas, monospace' fill="#CCCCCC" font-size="11" font-weight="500">Python</text>
-  <text x="878" y="200" font-family='IBM Plex Mono, JetBrains Mono, Fira Code, Consolas, monospace' fill="#4A4A4A" font-size="10" text-anchor="end">30 321 lines</text>
-  <rect x="40" y="206" width="840" height="7" fill="#101010" />
-  <rect x="40" y="206" width="840" height="7" fill="#EEEEEE" />
+  <text x="40" y="202" font-family='IBM Plex Mono, JetBrains Mono, Fira Code, Consolas, monospace' fill="#CCCCCC" font-size="11" font-weight="500">Python</text>
+  <text x="878" y="202" font-family='IBM Plex Mono, JetBrains Mono, Fira Code, Consolas, monospace' fill="#4A4A4A" font-size="10" text-anchor="end">30 321 lines</text>
+  <rect x="40" y="209" width="840" height="7" fill="#0F0F0F" />
+  <rect x="40" y="209" width="840" height="7" fill="#EEEEEE" />
   <text x="40" y="236" font-family='IBM Plex Mono, JetBrains Mono, Fira Code, Consolas, monospace' fill="#CCCCCC" font-size="11" font-weight="500">HTML</text>
   <text x="878" y="236" font-family='IBM Plex Mono, JetBrains Mono, Fira Code, Consolas, monospace' fill="#4A4A4A" font-size="10" text-anchor="end">22 392 lines</text>
-  <rect x="40" y="242" width="840" height="7" fill="#101010" />
-  <rect x="40" y="242" width="620" height="7" fill="#CECECE" />
-  <text x="40" y="272" font-family='IBM Plex Mono, JetBrains Mono, Fira Code, Consolas, monospace' fill="#CCCCCC" font-size="11" font-weight="500">Shell</text>
-  <text x="878" y="272" font-family='IBM Plex Mono, JetBrains Mono, Fira Code, Consolas, monospace' fill="#4A4A4A" font-size="10" text-anchor="end">266 lines</text>
-  <rect x="40" y="278" width="840" height="7" fill="#101010" />
-  <rect x="40" y="278" width="7" height="7" fill="#AEAEAE" />
-  <text x="40" y="308" font-family='IBM Plex Mono, JetBrains Mono, Fira Code, Consolas, monospace' fill="#CCCCCC" font-size="11" font-weight="500">SQL</text>
-  <text x="878" y="308" font-family='IBM Plex Mono, JetBrains Mono, Fira Code, Consolas, monospace' fill="#4A4A4A" font-size="10" text-anchor="end">150 lines</text>
-  <rect x="40" y="314" width="840" height="7" fill="#101010" />
-  <rect x="40" y="314" width="4" height="7" fill="#8E8E8E" />
+  <rect x="40" y="243" width="840" height="7" fill="#0F0F0F" />
+  <rect x="40" y="243" width="620" height="7" fill="#CECECE" />
+  <text x="40" y="270" font-family='IBM Plex Mono, JetBrains Mono, Fira Code, Consolas, monospace' fill="#CCCCCC" font-size="11" font-weight="500">Shell</text>
+  <text x="878" y="270" font-family='IBM Plex Mono, JetBrains Mono, Fira Code, Consolas, monospace' fill="#4A4A4A" font-size="10" text-anchor="end">266 lines</text>
+  <rect x="40" y="277" width="840" height="7" fill="#0F0F0F" />
+  <rect x="40" y="277" width="7" height="7" fill="#AEAEAE" />
+  <text x="40" y="304" font-family='IBM Plex Mono, JetBrains Mono, Fira Code, Consolas, monospace' fill="#CCCCCC" font-size="11" font-weight="500">SQL</text>
+  <text x="878" y="304" font-family='IBM Plex Mono, JetBrains Mono, Fira Code, Consolas, monospace' fill="#4A4A4A" font-size="10" text-anchor="end">150 lines</text>
+  <rect x="40" y="311" width="840" height="7" fill="#0F0F0F" />
+  <rect x="40" y="311" width="4" height="7" fill="#8E8E8E" />
 
   <!-- footer strip -->
-  <line x1="0" y1="320" x2="920" y2="320" stroke="#141414" />
-  <rect x="0" y="320" width="920" height="12" fill="#060606" />
-  <text x="40" y="329" font-family='IBM Plex Mono, JetBrains Mono, Fira Code, Consolas, monospace' fill="#303030" font-size="8" letter-spacing="0.5">source-safe  ·  activity exposed, code withheld  ·  last scan 2026-03-26</text>
+  <line x1="0" y1="328" x2="920" y2="328" stroke="#141414" />
+  <rect x="0" y="328" width="920" height="12" fill="#060606" />
+  <text x="40" y="337" font-family='IBM Plex Mono, JetBrains Mono, Fira Code, Consolas, monospace' fill="#303030" font-size="8" letter-spacing="0.5">source-safe  ·  activity exposed, code withheld  ·  last scan 2026-03-26</text>
 </svg>
