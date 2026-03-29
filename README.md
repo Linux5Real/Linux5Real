@@ -94,11 +94,11 @@ This system is for me first. It is being built as a private finance workspace th
 ---
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Linux5Real/Linux5Real/main/assets/finance-telemetry/finance-repo-telemetry.svg" alt="Finance Signal Engine — code telemetry" />
+  <img src="https://raw.githubusercontent.com/Linux5Real/Linux5Real/main/assets/finance-telemetry/finance-repo-telemetry.png" alt="Finance Signal Engine — code telemetry" />
 </div>
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Linux5Real/Linux5Real/main/assets/finance-telemetry/finance-repo-activity.svg" alt="Finance Signal Engine — execution tape" />
+  <img src="https://raw.githubusercontent.com/Linux5Real/Linux5Real/main/assets/finance-telemetry/finance-repo-activity.png" alt="Finance Signal Engine — execution tape" />
 </div>
 
 ---
