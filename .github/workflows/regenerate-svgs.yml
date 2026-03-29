@@ -1,32 +1,33 @@
 name: Regenerate Telemetry SVGs
+
 on:
-    push:
-      paths:
-        - 'assets/finance-telemetry/finance-repo-telemetry.json'
-    workflow_dispatch:
+  push:
+    paths:
+      - 'assets/finance-telemetry/finance-repo-telemetry.json'
+  workflow_dispatch:
 
-  jobs:
-    regenerate:
-      runs-on: ubuntu-latest
-      permissions:
-        contents: write
+jobs:
+  regenerate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
 
-      steps:
-        - uses: actions/checkout@v4
+    steps:
+      - uses: actions/checkout@v4
 
-        - name: Set up Python
-          uses: actions/setup-python@v5
-          with:
-            python-version: '3.12'
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
 
-        - name: Generate SVGs
-          run: python scripts/generate_svgs.py
+      - name: Generate SVGs
+        run: python scripts/generate_svgs.py
 
-        - name: Commit updated SVGs
-          run: |
-            git config user.name "github-actions[bot]"
-            git config user.email "github-actions[bot]@users.noreply.github.com"
-            git add assets/finance-telemetry/finance-repo-telemetry.svg \
-                    assets/finance-telemetry/finance-repo-activity.svg
-            git diff --cached --quiet || git commit -m "chore: regenerate telemetry SVGs [skip ci]"
-            git push
+      - name: Commit updated SVGs
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add assets/finance-telemetry/finance-repo-telemetry.svg \
+                  assets/finance-telemetry/finance-repo-activity.svg
+          git diff --cached --quiet || git commit -m "chore: regenerate telemetry SVGs [skip ci]"
+          git push
