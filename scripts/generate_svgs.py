@@ -1,1 +1,192 @@
-IyEvdXNyL2Jpbi9lbnYgcHl0aG9uMwoiIiIKR2VuZXJhdGUgdGVsZW1ldHJ5IFNWR3MgZm9yIExpbnV4NVJlYWwgR2l0SHViIHByb2ZpbGUuClJlYWRzOiBhc3NldHMvZmluYW5jZS10ZWxlbWV0cnkvZmluYW5jZS1yZXBvLXRlbGVtZXRyeS5qc29uCldyaXRlczogYXNzZXRzL2ZpbmFuY2UtdGVsZW1ldHJ5L2ZpbmFuY2UtcmVwby10ZWxlbWV0cnkuc3ZnCiAgICAgICAgYXNzZXRzL2ZpbmFuY2UtdGVsZW1ldHJ5L2ZpbmFuY2UtcmVwby1hY3Rpdml0eS5zdmcKIiIiCmltcG9ydCBqc29uCmZyb20gcGF0aGxpYiBpbXBvcnQgUGF0aAoKUk9PVCA9IFBhdGgoX19maWxlX18pLnBhcmVudC5wYXJlbnQKREFUQV9GSUxFID0gUk9PVCAvICJhc3NldHMvZmluYW5jZS10ZWxlbWV0cnkvZmluYW5jZS1yZXBvLXRlbGVtZXRyeS5qc29uIgpPVVRfRElSID0gUk9PVCAvICJhc3NldHMvZmluYW5jZS10ZWxlbWV0cnkiCgpTVFlMRSA9ICIiIiAgPHN0eWxlPgogICAgLnVpIHsgZm9udC1mYW1pbHk6ICdTZWdvZSBVSScsIEFyaWFsLCBzYW5zLXNlcmlmOyB9CiAgICAubW9ubyB7IGZvbnQtZmFtaWx5OiAnSUJNIFBsZXggTW9ubycsICdKZXRCcmFpbnMgTW9ubycsICdGaXJhIENvZGUnLCBDb25zb2xhcywgbW9ub3NwYWNlOyB9CiAgICAuZXllYnJvdyB7IGZpbGw6ICNGQUZBRkE7IGZvbnQtc2l6ZTogMTFweDsgZm9udC13ZWlnaHQ6IDcwMDsgbGV0dGVyLXNwYWNpbmc6IDIuNHB4OyB0ZXh0LXRyYW5zZm9ybTogdXBwZXJjYXNlOyB9CiAgICAubGFiZWwgeyBmaWxsOiAjQThBOEE4OyBmb250LXNpemU6IDEwcHg7IGxldHRlci1zcGFjaW5nOiAxLjZweDsgdGV4dC10cmFuc2Zvcm06IHVwcGVyY2FzZTsgfQogICAgLnZhbHVlIHsgZmlsbDogI0ZGRkZGRjsgZm9udC1zaXplOiAyNnB4OyBmb250LXdlaWdodDogNzAwOyB9CiAgICAubXV0ZWQgeyBmaWxsOiAjOEM4QzhDOyBmb250LXNpemU6IDExcHg7IH0KICA8L3N0eWxlPiIiIgoKCmRlZiBsb2FkX2RhdGEoKSAtPiBkaWN0OgogICAgd2l0aCBvcGVuKERBVEFfRklMRSkgYXMgZjoKICAgICAgICByZXR1cm4ganNvbi5sb2FkKGYpCgoKZGVmIGZtdF9udW1iZXIobjogaW50KSAtPiBzdHI6CiAgICByZXR1cm4gZiJ7bjosfSIucmVwbGFjZSgiLCIsICJcdTIwMmYiKQoKCmRlZiBhY3Rpdml0eV9jb2xvcihjb21taXRzOiBpbnQsIG1heF9jb21taXRzOiBpbnQpIC0+IHN0cjoKICAgIGlmIGNvbW1pdHMgPT0gMDoKICAgICAgICByZXR1cm4gIiMxMDEwMTAiCiAgICByYXRpbyA9IGNvbW1pdHMgLyBtYXhfY29tbWl0cwogICAgaWYgcmF0aW8gPCAwLjI1OgogICAgICAgIHJldHVybiAiIzMzMzMzMyIKICAgIGVsaWYgcmF0aW8gPCAwLjU6CiAgICAgICAgcmV0dXJuICIjNjY2NjY2IgogICAgZWxpZiByYXRpbyA8IDAuNzU6CiAgICAgICAgcmV0dXJuICIjQjVCNUI1IgogICAgcmV0dXJuICIjRkZGRkZGIgoKCmRlZiBnZW5lcmF0ZV90ZWxlbWV0cnlfc3ZnKGRhdGE6IGRpY3QpIC0+IHN0cjoKICAgIHNjYW4gPSBkYXRhWyJzY2FuIl0KICAgIGFjdGl2aXR5ID0gZGF0YVsiYWN0aXZpdHkiXQogICAgbG9jID0gZm10X251bWJlcihzY2FuWyJ0cmFja2VkX2xpbmVzIl0pCiAgICBmaWxlcyA9IHN0cihzY2FuWyJ0cmFja2VkX2ZpbGVzIl0pCiAgICBjb21taXRzXzMwZCA9IHN0cihhY3Rpdml0eVsiY29tbWl0c19sYXN0XzMwX2RheXMiXSkKICAgIHRvdGFsX2NvbW1pdHMgPSBzdHIoYWN0aXZpdHlbInRvdGFsX2NvbW1pdHMiXSkKICAgIGxhc3RfY29tbWl0ID0gYWN0aXZpdHlbImxhc3RfY29tbWl0X2RhdGUiXQogICAgY29udHJpYnV0b3JzID0gc3RyKGFjdGl2aXR5WyJjb250cmlidXRvcnMiXSkKCiAgICBsYW5ncyA9IHNjYW5bImxhbmd1YWdlX2xpbmVzIl0KICAgIHNvcnRlZF9sYW5ncyA9IHNvcnRlZChsYW5ncy5pdGVtcygpLCBrZXk9bGFtYmRhIHg6IHhbMV0sIHJldmVyc2U9VHJ1ZSlbOjRdCiAgICBtYXhfbGluZXMgPSBzb3J0ZWRfbGFuZ3NbMF1bMV0gaWYgc29ydGVkX2xhbmdzIGVsc2UgMQogICAgQkFSX1cgPSAyNTgKCiAgICBsYW5nX3Jvd3MgPSAiIgogICAgeSA9IDE2NAogICAgZm9yIGksIChsYW5nLCBsaW5lcykgaW4gZW51bWVyYXRlKHNvcnRlZF9sYW5ncyk6CiAgICAgICAgYmFyX2ZpbGwgPSBtaW4oQkFSX1csIGludChCQVJfVyAqIGxpbmVzIC8gbWF4X2xpbmVzKSkKICAgICAgICBncmF5ID0gMjU1IC0gaW50KDgwICogaSAvIG1heChsZW4oc29ydGVkX2xhbmdzKSAtIDEsIDEpKQogICAgICAgIGNvbG9yID0gZiIje2dyYXk6MDJYfXtncmF5OjAyWH17Z3JheTowMlh9IgogICAgICAgIGxhbmdfcm93cyArPSBmIiIiCiAgICA8dGV4dCB4PSI0OTAiIHk9Int5fSIgY2xhc3M9InVpIiBmaWxsPSIjRjFGMUYxIiBmb250LXNpemU9IjE0IiBmb250LXdlaWdodD0iNjAwIj57bGFuZ308L3RleHQ+CiAgICA8dGV4dCB4PSI4MjAiIHk9Int5fSIgY2xhc3M9Im1vbm8iIGZpbGw9IiM5OTk5OTkiIGZvbnQtc2l6ZT0iMTIiIHRleHQtYW5jaG9yPSJlbmQiPntmbXRfbnVtYmVyKGxpbmVzKX0gbGluZXM8L3RleHQ+CiAgICA8cmVjdCB4PSI0OTAiIHk9Int5ICsgOH0iIHdpZHRoPSJ7QkFSX1d9IiBoZWlnaHQ9IjkiIHJ4PSI0IiBmaWxsPSIjMUExQTFBIiAvPgogICAgPHJlY3QgeD0iNDkwIiB5PSJ7eSArIDh9IiB3aWR0aD0ie2Jhcl9maWxsfSIgaGVpZ2h0PSI5IiByeD0iNCIgZmlsbD0ie2NvbG9yfSIgLz4iIiIKICAgICAgICB5ICs9IDM4CgogICAgcmV0dXJuIGYiIiI8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjkyMCIgaGVpZ2h0PSIzNDAiIHZpZXdCb3g9IjAgMCA5MjAgMzQwIiByb2xlPSJpbWciIGFyaWEtbGFiZWw9IkZpbmFuY2UgUmVwbyBUZWxlbWV0cnkiPgogIDx0aXRsZT5GaW5hbmNlIFJlcG8gVGVsZW1ldHJ5PC90aXRsZT4Ke1NUWUxFfQogIDxyZWN0IHdpZHRoPSI5MjAiIGhlaWdodD0iMzQwIiByeD0iMjQiIGZpbGw9IiMwMjAyMDIiIC8+CiAgPHJlY3QgeD0iMjAiIHk9IjIwIiB3aWR0aD0iODgwIiBoZWlnaHQ9IjMwMCIgcng9IjE4IiBmaWxsPSIjMDcwNzA3IiBzdHJva2U9IiMyRDJEMkQiIC8+CiAgPGxpbmUgeDE9IjQwIiB5MT0iNDQiIHgyPSI4ODAiIHkyPSI0NCIgc3Ryb2tlPSIjMUYxRjFGIiAvPgoKICA8dGV4dCB4PSI0OCIgeT0iNjYiIGNsYXNzPSJtb25vIGV5ZWJyb3ciPlBSSVZBVEUgUkVQTyBURUxFTUVUUlk8L3RleHQ+CiAgPHRleHQgeD0iNDgiIHk9IjEwMCIgY2xhc3M9InVpIiBmaWxsPSIjRkFGQUZBIiBmb250LXNpemU9IjI4IiBmb250LXdlaWdodD0iNzAwIj5GaW5hbmNlIFJlcG8gVGVsZW1ldHJ5PC90ZXh0PgogIDx0ZXh0IHg9IjQ4IiB5PSIxMjIiIGNsYXNzPSJ1aSIgZmlsbD0iI0Q0RDRENCIgZm9udC1zaXplPSIxNCI+RmluYW5jZSBTaWduYWwgRW5naW5lPC90ZXh0PgogIDx0ZXh0IHg9IjQ4IiB5PSIxNDQiIGNsYXNzPSJ1aSBtdXRlZCI+U291cmNlLXNhZmUgdGVsZW1ldHJ5IG9ubHkg4oCUIGFjdGl2aXR5IGV4cG9zZWQsIGNvZGUgd2l0aGhlbGQuPC90ZXh0PgoKICA8dGV4dCB4PSI0OCIgeT0iMTg2IiBjbGFzcz0idWkgbGFiZWwiPlRyYWNrZWQgTE9DPC90ZXh0PgogIDx0ZXh0IHg9IjQ4IiB5PSIyMTgiIGNsYXNzPSJ1aSB2YWx1ZSI+e2xvY308L3RleHQ+CiAgPHRleHQgeD0iMjEwIiB5PSIxODYiIGNsYXNzPSJ1aSBsYWJlbCI+VHJhY2tlZCBGaWxlczwvdGV4dD4KICA8dGV4dCB4PSIyMTAiIHk9IjIxOCIgY2xhc3M9InVpIHZhbHVlIj57ZmlsZXN9PC90ZXh0PgogIDx0ZXh0IHg9IjM2OCIgeT0iMTg2IiBjbGFzcz0idWkgbGFiZWwiPkNvbW1pdHMgMzBEPC90ZXh0PgogIDx0ZXh0IHg9IjM2OCIgeT0iMjE4IiBjbGFzcz0idWkgdmFsdWUiPntjb21taXRzXzMwZH08L3RleHQ+CgogIDx0ZXh0IHg9IjQ4IiB5PSIyNjIiIGNsYXNzPSJ1aSBtdXRlZCI+Q29udHJpYnV0b3JzOiB7Y29udHJpYnV0b3JzfTwvdGV4dD4KICA8dGV4dCB4PSIxOTAiIHk9IjI2MiIgY2xhc3M9InVpIG11dGVkIj5MYXN0IGNvbW1pdDoge2xhc3RfY29tbWl0fTwvdGV4dD4KICA8dGV4dCB4PSIzNzAiIHk9IjI2MiIgY2xhc3M9InVpIG11dGVkIj5Ub3RhbCBjb21taXRzOiB7dG90YWxfY29tbWl0c308L3RleHQ+CgogIDxyZWN0IHg9IjQ2OCIgeT0iNTYiIHdpZHRoPSIzNzIiIGhlaWdodD0iMjQ4IiByeD0iMTQiIGZpbGw9IiMwNzA3MDciIHN0cm9rZT0iIzJBMkEyQSIgLz4KICA8dGV4dCB4PSI0OTAiIHk9Ijg2IiBjbGFzcz0ibW9ubyBleWVicm93Ij5DT0RFIE1JWDwvdGV4dD4KICA8dGV4dCB4PSI0OTAiIHk9IjEwNiIgY2xhc3M9InVpIG11dGVkIiBmb250LXNpemU9IjExIj5Ub3AgbGFuZ3VhZ2VzIGJ5IG5vbi1lbXB0eSB0cmFja2VkIGxpbmVzPC90ZXh0PgogIDxsaW5lIHgxPSI0OTAiIHkxPSIxMTYiIHgyPSI4MjAiIHkyPSIxMTYiIHN0cm9rZT0iIzFFMUUxRSIgLz4Ke2xhbmdfcm93c30KPC9zdmc+IiIiCgoKZGVmIGdlbmVyYXRlX2FjdGl2aXR5X3N2ZyhkYXRhOiBkaWN0KSAtPiBzdHI6CiAgICBhY3Rpdml0eSA9IGRhdGFbImFjdGl2aXR5Il0KICAgIHNlcmllcyA9IGFjdGl2aXR5WyJhY3Rpdml0eV9zZXJpZXMiXQogICAgY29tbWl0c18zMGQgPSBhY3Rpdml0eVsiY29tbWl0c19sYXN0XzMwX2RheXMiXQogICAgbGFzdF9jb21taXQgPSBhY3Rpdml0eVsibGFzdF9jb21taXRfZGF0ZSJdCgogICAgYWN0aXZlX2RheXMgPSBzdW0oMSBmb3IgeCBpbiBzZXJpZXMgaWYgeCA+IDApCiAgICBwZWFrID0gbWF4KHNlcmllcykgaWYgc2VyaWVzIGVsc2UgMAogICAgc3RyZWFrID0gMAogICAgZm9yIHggaW4gcmV2ZXJzZWQoc2VyaWVzKToKICAgICAgICBpZiB4ID4gMDoKICAgICAgICAgICAgc3RyZWFrICs9IDEKICAgICAgICBlbHNlOgogICAgICAgICAgICBicmVhawogICAgbWF4X2NvbW1pdHMgPSBtYXgoc2VyaWVzKSBpZiBzZXJpZXMgZWxzZSAxCgogICAgR1JJRF9YLCBHUklEX1kgPSA0NDgsIDExNgogICAgQ0VMTCwgR0FQID0gMTQsIDYKICAgIENPTFMsIFJPV1MgPSAxMiwgNwoKICAgIHBhZGRlZCA9IChbMF0gKiAoQ09MUyAqIFJPV1MgLSBsZW4oc2VyaWVzKSkpICsgbGlzdChzZXJpZXMpCiAgICBjZWxscyA9IFtdCiAgICBmb3IgY29sIGluIHJhbmdlKENPTFMpOgogICAgICAgIGZvciByb3cgaW4gcmFuZ2UoUk9XUyk6CiAgICAgICAgICAgIGlkeCA9IGNvbCAqIFJPV1MgKyByb3cKICAgICAgICAgICAgY29tbWl0cyA9IHBhZGRlZFtpZHhdIGlmIGlkeCA8IGxlbihwYWRkZWQpIGVsc2UgMAogICAgICAgICAgICBjb2xvciA9IGFjdGl2aXR5X2NvbG9yKGNvbW1pdHMsIG1heF9jb21taXRzKQogICAgICAgICAgICBjeCA9IEdSSURfWCArIGNvbCAqIChDRUxMICsgR0FQKQogICAgICAgICAgICBjeSA9IEdSSURfWSArIHJvdyAqIChDRUxMICsgR0FQKQogICAgICAgICAgICBjZWxscy5hcHBlbmQoZic8cmVjdCB4PSJ7Y3h9IiB5PSJ7Y3l9IiB3aWR0aD0ie0NFTEx9IiBoZWlnaHQ9IntDRUxMfSIgcng9IjMiIGZpbGw9Intjb2xvcn0iIC8+JykKCiAgICBncmlkID0gIlxuICAiLmpvaW4oY2VsbHMpCgogICAgcmV0dXJuIGYiIiI8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjkyMCIgaGVpZ2h0PSIyOTYiIHZpZXdCb3g9IjAgMCA5MjAgMjk2IiByb2xlPSJpbWciIGFyaWEtbGFiZWw9IkZpbmFuY2UgUmVwbyBBY3Rpdml0eSI+CiAgPHRpdGxlPkZpbmFuY2UgUmVwbyBBY3Rpdml0eTwvdGl0bGU+CntTVFlMRX0KICA8cmVjdCB3aWR0aD0iOTIwIiBoZWlnaHQ9IjI5NiIgcng9IjI0IiBmaWxsPSIjMDIwMjAyIiAvPgogIDxyZWN0IHg9IjIwIiB5PSIyMCIgd2lkdGg9Ijg4MCIgaGVpZ2h0PSIyNTYiIHJ4PSIxOCIgZmlsbD0iIzA3MDcwNyIgc3Ryb2tlPSIjMkIyQjJCIiAvPgoKICA8dGV4dCB4PSI0OCIgeT0iNTQiIGNsYXNzPSJtb25vIGV5ZWJyb3ciPlJFUE8gQUNUSVZJVFk8L3RleHQ+CiAgPHRleHQgeD0iNDgiIHk9Ijc0IiBjbGFzcz0idWkgbGFiZWwiPlNFU1NJT04gU1VNTUFSWTwvdGV4dD4KICA8dGV4dCB4PSI0OCIgeT0iMTAwIiBjbGFzcz0idWkiIGZpbGw9IiNGQUZBRkEiIGZvbnQtc2l6ZT0iMTYiIGZvbnQtd2VpZ2h0PSI3MDAiPkZpbmFuY2UgUmVwbyBUZWxlbWV0cnk8L3RleHQ+CiAgPHRleHQgeD0iNDgiIHk9IjEyMCIgY2xhc3M9InVpIiBmaWxsPSIjRDRENEQ0IiBmb250LXNpemU9IjEyIj5GaW5hbmNlIFNpZ25hbCBFbmdpbmU8L3RleHQ+CiAgPHRleHQgeD0iNDgiIHk9IjE0MCIgY2xhc3M9InVpIG11dGVkIj44NC1kYXkgcmVwbyBhY3Rpdml0eSDigJQge2NvbW1pdHNfMzBkfSBjb21taXRzIGluIHRoZSBsYXN0IDMwIGRheXM8L3RleHQ+CgogIDxsaW5lIHgxPSIzNzYiIHkxPSIzNiIgeDI9IjM3NiIgeTI9IjI2MCIgc3Ryb2tlPSIjMjMyMzIzIiAvPgoKICA8dGV4dCB4PSI0OCIgeT0iMTgwIiBjbGFzcz0idWkgbGFiZWwiPjMwRCBDT01NSVRTPC90ZXh0PgogIDx0ZXh0IHg9IjQ4IiB5PSIyMDAiIGNsYXNzPSJtb25vIiBmaWxsPSIjRkZGRkZGIiBmb250LXNpemU9IjE3IiBmb250LXdlaWdodD0iNzAwIj57Y29tbWl0c18zMGR9IHNlc3Npb25zPC90ZXh0PgogIDx0ZXh0IHg9IjIxMCIgeT0iMTgwIiBjbGFzcz0idWkgbGFiZWwiPkFDVElWRSBEQVlTPC90ZXh0PgogIDx0ZXh0IHg9IjIxMCIgeT0iMjAwIiBjbGFzcz0ibW9ubyIgZmlsbD0iI0ZGRkZGRiIgZm9udC1zaXplPSIxNyIgZm9udC13ZWlnaHQ9IjcwMCI+e2FjdGl2ZV9kYXlzfSBzZXNzaW9uczwvdGV4dD4KICA8dGV4dCB4PSI0OCIgeT0iMjMyIiBjbGFzcz0idWkgbGFiZWwiPlBFQUsgU0VTU0lPTjwvdGV4dD4KICA8dGV4dCB4PSI0OCIgeT0iMjUyIiBjbGFzcz0ibW9ubyIgZmlsbD0iI0ZGRkZGRiIgZm9udC1zaXplPSIxNyIgZm9udC13ZWlnaHQ9IjcwMCI+e3BlYWt9IGNvbW1pdHM8L3RleHQ+CiAgPHRleHQgeD0iMjEwIiB5PSIyMzIiIGNsYXNzPSJ1aSBsYWJlbCI+Q1VSUkVOVCBTVFJFQUs8L3RleHQ+CiAgPHRleHQgeD0iMjEwIiB5PSIyNTIiIGNsYXNzPSJtb25vIiBmaWxsPSIjRkZGRkZGIiBmb250LXNpemU9IjE3IiBmb250LXdlaWdodD0iNzAwIj57c3RyZWFrfSBkYXlzPC90ZXh0PgogIDx0ZXh0IHg9IjQ4IiB5PSIyNzAiIGNsYXNzPSJ1aSBtdXRlZCI+TGFzdCBwcmludDoge2xhc3RfY29tbWl0fTwvdGV4dD4KCiAgPHRleHQgeD0iNDA4IiB5PSI1NCIgY2xhc3M9Im1vbm8gZXllYnJvdyI+U0VTU0lPTiBUQVBFPC90ZXh0PgogIDx0ZXh0IHg9IjQwOCIgeT0iNzIiIGNsYXNzPSJ1aSBtdXRlZCI+ODQgdHJhZGluZyBkYXlzIOKAlCBleGVjdXRpb24tc3R5bGUgYWN0aXZpdHkgZ3JpZC48L3RleHQ+CgogIDx0ZXh0IHg9IjcxOCIgeT0iNTQiIGNsYXNzPSJ1aSBsYWJlbCI+TE9XPC90ZXh0PgogIDxyZWN0IHg9Ijc1NCIgeT0iNDQiIHdpZHRoPSIxMSIgaGVpZ2h0PSIxMSIgcng9IjIiIGZpbGw9IiMxMDEwMTAiIC8+CiAgPHJlY3QgeD0iNzcyIiB5PSI0NCIgd2lkdGg9IjExIiBoZWlnaHQ9IjExIiByeD0iMiIgZmlsbD0iIzMzMzMzMyIgLz4KICA8cmVjdCB4PSI3OTAiIHk9IjQ0IiB3aWR0aD0iMTEiIGhlaWdodD0iMTEiIHJ4PSIyIiBmaWxsPSIjNjY2NjY2IiAvPgogIDxyZWN0IHg9IjgwOCIgeT0iNDQiIHdpZHRoPSIxMSIgaGVpZ2h0PSIxMSIgcng9IjIiIGZpbGw9IiNCNUI1QjUiIC8+CiAgPHJlY3QgeD0iODI2IiB5PSI0NCIgd2lkdGg9IjExIiBoZWlnaHQ9IjExIiByeD0iMiIgZmlsbD0iI0ZGRkZGRiIgLz4KICA8dGV4dCB4PSI4NDYiIHk9IjU0IiBjbGFzcz0idWkgbGFiZWwiPkhJR0g8L3RleHQ+CgogIDx0ZXh0IHg9IntHUklEX1ggLSAyMH0iIHk9IntHUklEX1kgKyAxMH0iIGNsYXNzPSJ1aSIgZmlsbD0iIzlFOUU5RSIgZm9udC1zaXplPSIxMCIgdGV4dC1hbmNob3I9ImVuZCI+TW9uPC90ZXh0PgogIDx0ZXh0IHg9IntHUklEX1ggLSAyMH0iIHk9IntHUklEX1kgKyAzMH0iIGNsYXNzPSJ1aSIgZmlsbD0iIzlFOUU5RSIgZm9udC1zaXplPSIxMCIgdGV4dC1hbmNob3I9ImVuZCI+V2VkPC90ZXh0PgogIDx0ZXh0IHg9IntHUklEX1ggLSAyMH0iIHk9IntHUklEX1kgKyA1MH0iIGNsYXNzPSJ1aSIgZmlsbD0iIzlFOUU5RSIgZm9udC1zaXplPSIxMCIgdGV4dC1hbmNob3I9ImVuZCI+RnJpPC90ZXh0PgogIDx0ZXh0IHg9IntHUklEX1ggLSAyMH0iIHk9IntHUklEX1kgKyAxMTB9IiBjbGFzcz0idWkiIGZpbGw9IiM5RTlFOUUiIGZvbnQtc2l6ZT0iMTAiIHRleHQtYW5jaG9yPSJlbmQiPlN1bjwvdGV4dD4KCiAge2dyaWR9Cjwvc3ZnPiIiIgoKCmRlZiBtYWluKCkgLT4gTm9uZToKICAgIGRhdGEgPSBsb2FkX2RhdGEoKQogICAgdGVsZW1ldHJ5X3N2ZyA9IGdlbmVyYXRlX3RlbGVtZXRyeV9zdmcoZGF0YSkKICAgIGFjdGl2aXR5X3N2ZyA9IGdlbmVyYXRlX2FjdGl2aXR5X3N2ZyhkYXRhKQoKICAgIChPVVRfRElSIC8gImZpbmFuY2UtcmVwby10ZWxlbWV0cnkuc3ZnIikud3JpdGVfdGV4dCh0ZWxlbWV0cnlfc3ZnLCBlbmNvZGluZz0idXRmLTgiKQogICAgcHJpbnQoIldyaXR0ZW46IGZpbmFuY2UtcmVwby10ZWxlbWV0cnkuc3ZnIikKCiAgICAoT1VUX0RJUiAvICJmaW5hbmNlLXJlcG8tYWN0aXZpdHkuc3ZnIikud3JpdGVfdGV4dChhY3Rpdml0eV9zdmcsIGVuY29kaW5nPSJ1dGYtOCIpCiAgICBwcmludCgiV3JpdHRlbjogZmluYW5jZS1yZXBvLWFjdGl2aXR5LnN2ZyIpCgoKaWYgX19uYW1lX18gPT0gIl9fbWFpbl9fIjoKICAgIG1haW4oKQo=
+#!/usr/bin/env python3
+"""
+Generate telemetry SVGs for Linux5Real GitHub profile.
+Reads: assets/finance-telemetry/finance-repo-telemetry.json
+Writes: assets/finance-telemetry/finance-repo-telemetry.svg
+        assets/finance-telemetry/finance-repo-activity.svg
+"""
+import json
+from html import escape
+from pathlib import Path
+
+ROOT = Path(__file__).parent.parent
+DATA_FILE = ROOT / "assets/finance-telemetry/finance-repo-telemetry.json"
+OUT_DIR = ROOT / "assets/finance-telemetry"
+
+STYLE = """  <style>
+    .ui { font-family: 'Segoe UI', Arial, sans-serif; }
+    .mono { font-family: 'IBM Plex Mono', 'JetBrains Mono', 'Fira Code', Consolas, monospace; }
+    .eyebrow { fill: #FAFAFA; font-size: 11px; font-weight: 700; letter-spacing: 2.4px; text-transform: uppercase; }
+    .label { fill: #A8A8A8; font-size: 10px; letter-spacing: 1.6px; text-transform: uppercase; }
+    .value { fill: #FFFFFF; font-size: 26px; font-weight: 700; }
+    .muted { fill: #8C8C8C; font-size: 11px; }
+  </style>"""
+
+
+def load_data() -> dict:
+    with open(DATA_FILE) as f:
+        return json.load(f)
+
+
+def fmt_number(n: int) -> str:
+    return f"{n:,}".replace(",", "\u202f")
+
+
+def activity_color(commits: int, max_commits: int) -> str:
+    if commits == 0:
+        return "#101010"
+    ratio = commits / max_commits
+    if ratio < 0.25:
+        return "#333333"
+    elif ratio < 0.5:
+        return "#666666"
+    elif ratio < 0.75:
+        return "#B5B5B5"
+    return "#FFFFFF"
+
+
+def generate_telemetry_svg(data: dict) -> str:
+    scan = data["scan"]
+    activity = data["activity"]
+    loc = escape(fmt_number(scan["tracked_lines"]))
+    files = escape(str(scan["tracked_files"]))
+    commits_30d = escape(str(activity["commits_last_30_days"]))
+    total_commits = escape(str(activity["total_commits"]))
+    last_commit = escape(activity["last_commit_date"])
+    contributors = escape(str(activity["contributors"]))
+
+    langs = scan["language_lines"]
+    sorted_langs = sorted(langs.items(), key=lambda x: x[1], reverse=True)[:4]
+    max_lines = sorted_langs[0][1] if sorted_langs else 0
+    BAR_W = 258
+
+    lang_rows = ""
+    y = 164
+    for i, (lang, lines) in enumerate(sorted_langs):
+        bar_fill = min(BAR_W, int(BAR_W * lines / max_lines)) if max_lines > 0 else 0
+        gray = 255 - int(80 * i / max(len(sorted_langs) - 1, 1))
+        color = f"#{gray:02X}{gray:02X}{gray:02X}"
+        lang_rows += f"""
+    <text x="490" y="{y}" class="ui" fill="#F1F1F1" font-size="14" font-weight="600">{escape(lang)}</text>
+    <text x="820" y="{y}" class="mono" fill="#999999" font-size="12" text-anchor="end">{escape(fmt_number(lines))} lines</text>
+    <rect x="490" y="{y + 8}" width="{BAR_W}" height="9" rx="4" fill="#1A1A1A" />
+    <rect x="490" y="{y + 8}" width="{bar_fill}" height="9" rx="4" fill="{color}" />"""
+        y += 38
+
+    return f"""<svg xmlns="http://www.w3.org/2000/svg" width="920" height="340" viewBox="0 0 920 340" role="img" aria-label="Finance Repo Telemetry">
+  <title>Finance Repo Telemetry</title>
+{STYLE}
+  <rect width="920" height="340" rx="24" fill="#020202" />
+  <rect x="20" y="20" width="880" height="300" rx="18" fill="#070707" stroke="#2D2D2D" />
+  <line x1="40" y1="44" x2="880" y2="44" stroke="#1F1F1F" />
+
+  <text x="48" y="66" class="mono eyebrow">PRIVATE REPO TELEMETRY</text>
+  <text x="48" y="100" class="ui" fill="#FAFAFA" font-size="28" font-weight="700">Finance Repo Telemetry</text>
+  <text x="48" y="122" class="ui" fill="#D4D4D4" font-size="14">Finance Signal Engine</text>
+  <text x="48" y="144" class="ui muted">Source-safe telemetry only — activity exposed, code withheld.</text>
+
+  <text x="48" y="186" class="ui label">Tracked LOC</text>
+  <text x="48" y="218" class="ui value">{loc}</text>
+  <text x="210" y="186" class="ui label">Tracked Files</text>
+  <text x="210" y="218" class="ui value">{files}</text>
+  <text x="368" y="186" class="ui label">Commits 30D</text>
+  <text x="368" y="218" class="ui value">{commits_30d}</text>
+
+  <text x="48" y="262" class="ui muted">Contributors: {contributors}</text>
+  <text x="190" y="262" class="ui muted">Last commit: {last_commit}</text>
+  <text x="370" y="262" class="ui muted">Total commits: {total_commits}</text>
+
+  <rect x="468" y="56" width="372" height="248" rx="14" fill="#070707" stroke="#2A2A2A" />
+  <text x="490" y="86" class="mono eyebrow">CODE MIX</text>
+  <text x="490" y="106" class="ui muted" font-size="11">Top languages by non-empty tracked lines</text>
+  <line x1="490" y1="116" x2="820" y2="116" stroke="#1E1E1E" />
+{lang_rows}
+</svg>"""
+
+
+def generate_activity_svg(data: dict) -> str:
+    activity = data["activity"]
+    commits_30d = activity["commits_last_30_days"]
+    last_commit = activity["last_commit_date"]
+
+    GRID_X, GRID_Y = 448, 116
+    CELL, GAP = 14, 6
+    COLS, ROWS = 12, 7
+
+    series = list(activity["activity_series"])[-COLS * ROWS:]
+    active_days = sum(1 for x in series if x > 0)
+    peak = max(series) if series else 0
+    streak = 0
+    for x in reversed(series):
+        if x > 0:
+            streak += 1
+        else:
+            break
+    max_commits = max(series) if series else 1
+
+    padded = ([0] * (COLS * ROWS - len(series))) + series
+    cells = []
+    for col in range(COLS):
+        for row in range(ROWS):
+            idx = col * ROWS + row
+            color = activity_color(padded[idx], max_commits)
+            cx = GRID_X + col * (CELL + GAP)
+            cy = GRID_Y + row * (CELL + GAP)
+            cells.append(f'<rect x="{cx}" y="{cy}" width="{CELL}" height="{CELL}" rx="3" fill="{color}" />')
+
+    grid = "\n  ".join(cells)
+
+    return f"""<svg xmlns="http://www.w3.org/2000/svg" width="920" height="296" viewBox="0 0 920 296" role="img" aria-label="Finance Repo Activity">
+  <title>Finance Repo Activity</title>
+{STYLE}
+  <rect width="920" height="296" rx="24" fill="#020202" />
+  <rect x="20" y="20" width="880" height="256" rx="18" fill="#070707" stroke="#2B2B2B" />
+
+  <text x="48" y="54" class="mono eyebrow">REPO ACTIVITY</text>
+  <text x="48" y="74" class="ui label">SESSION SUMMARY</text>
+  <text x="48" y="100" class="ui" fill="#FAFAFA" font-size="16" font-weight="700">Finance Repo Telemetry</text>
+  <text x="48" y="120" class="ui" fill="#D4D4D4" font-size="12">Finance Signal Engine</text>
+  <text x="48" y="140" class="ui muted">84-day repo activity &#x2014; {escape(str(commits_30d))} commits in the last 30 days</text>
+
+  <line x1="376" y1="36" x2="376" y2="260" stroke="#232323" />
+
+  <text x="48" y="180" class="ui label">30D COMMITS</text>
+  <text x="48" y="200" class="mono" fill="#FFFFFF" font-size="17" font-weight="700">{escape(str(commits_30d))} commits</text>
+  <text x="210" y="180" class="ui label">ACTIVE DAYS</text>
+  <text x="210" y="200" class="mono" fill="#FFFFFF" font-size="17" font-weight="700">{escape(str(active_days))} sessions</text>
+  <text x="48" y="232" class="ui label">PEAK SESSION</text>
+  <text x="48" y="252" class="mono" fill="#FFFFFF" font-size="17" font-weight="700">{escape(str(peak))} commits</text>
+  <text x="210" y="232" class="ui label">CURRENT STREAK</text>
+  <text x="210" y="252" class="mono" fill="#FFFFFF" font-size="17" font-weight="700">{escape(str(streak))} days</text>
+  <text x="48" y="270" class="ui muted">Last print: {escape(last_commit)}</text>
+
+  <text x="408" y="54" class="mono eyebrow">SESSION TAPE</text>
+  <text x="408" y="72" class="ui muted">84 trading days &#x2014; execution-style activity grid.</text>
+
+  <text x="718" y="54" class="ui label">LOW</text>
+  <rect x="754" y="44" width="11" height="11" rx="2" fill="#101010" />
+  <rect x="772" y="44" width="11" height="11" rx="2" fill="#333333" />
+  <rect x="790" y="44" width="11" height="11" rx="2" fill="#666666" />
+  <rect x="808" y="44" width="11" height="11" rx="2" fill="#B5B5B5" />
+  <rect x="826" y="44" width="11" height="11" rx="2" fill="#FFFFFF" />
+  <text x="846" y="54" class="ui label">HIGH</text>
+
+  <text x="{GRID_X - 20}" y="{GRID_Y + 10}" class="ui" fill="#9E9E9E" font-size="10" text-anchor="end">Mon</text>
+  <text x="{GRID_X - 20}" y="{GRID_Y + 50}" class="ui" fill="#9E9E9E" font-size="10" text-anchor="end">Wed</text>
+  <text x="{GRID_X - 20}" y="{GRID_Y + 90}" class="ui" fill="#9E9E9E" font-size="10" text-anchor="end">Fri</text>
+  <text x="{GRID_X - 20}" y="{GRID_Y + 130}" class="ui" fill="#9E9E9E" font-size="10" text-anchor="end">Sun</text>
+
+  {grid}
+</svg>"""
+
+
+def main() -> None:
+    data = load_data()
+    (OUT_DIR / "finance-repo-telemetry.svg").write_text(generate_telemetry_svg(data), encoding="utf-8")
+    print("Written: finance-repo-telemetry.svg")
+    (OUT_DIR / "finance-repo-activity.svg").write_text(generate_activity_svg(data), encoding="utf-8")
+    print("Written: finance-repo-activity.svg")
+
+
+if __name__ == "__main__":
+    main()
