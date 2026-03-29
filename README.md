@@ -1,17 +1,5 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Linux5Real/Linux5Real/main/assets/finance-telemetry/finance-hero.svg" alt="Linus / Linux5Real market terminal banner" />
-</div>
-
-<br>
-
-<div align="center">
-
-```
-[ LINUS ] [ LINUX5REAL ] [ GERMANY ] [ AGE: 18 ]
-[ SWING → DAY ] [ STOCKS ] [ FINANCE ] [ AI SYSTEMS ]
-[ LINUX · DEBIAN · GIT · GITHUB ] [ PRIVATE BUILDS FIRST ]
-```
-
+  <img src="https://raw.githubusercontent.com/Linux5Real/Linux5Real/main/assets/finance-telemetry/finance-hero.png" alt="Linus / Linux5Real — Finance Signal Engine" />
 </div>
 
 ---
@@ -100,19 +88,6 @@ This system is for me first. It is being built as a private finance workspace th
 <div align="center">
   <img src="https://raw.githubusercontent.com/Linux5Real/Linux5Real/main/assets/finance-telemetry/finance-repo-activity.png" alt="Finance Signal Engine — execution tape" />
 </div>
-
----
-
-## PROFILE SIGNALS
-
-<p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=Linux5real&show_icons=true&count_private=true&include_all_commits=true&hide_border=true&bg_color=0b0b0b&title_color=ffffff&text_color=d0d0d0&icon_color=ffffff&custom_title=Linux5real%20GitHub%20Stats" alt="Linux5real GitHub stats" />
-  <img height="170" src="https://streak-stats.demolab.com?user=Linux5real&hide_border=true&background=0B0B0B&ring=FFFFFF&fire=CFCFCF&currStreakLabel=FFFFFF&sideLabels=BDBDBD&dates=7A7A7A&sideNums=FFFFFF&currStreakNum=FFFFFF" alt="Linux5real GitHub streak" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Linux5real&bg_color=0b0b0b&color=d8d8d8&line=ffffff&point=b0b0b0&area=true&area_color=1b1b1b&hide_border=true" alt="Linux5real activity graph" />
-</p>
 
 ---
 
