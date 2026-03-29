@@ -36,24 +36,15 @@ The project is a live private platform, not just a finance-themed assistant conc
 
 ### Current Surface
 
-| Channel | Function |
-| --- | --- |
-| `ai-trading-chat` | main finance workspace |
-| `trade-check` | decision support before entry |
-| `market-scanner` | opportunity filtering |
-| `database-view` | journal and stored context |
-| `ai-training` | feedback and improvement loop |
+<div align="center">
+  <img src="https://raw.githubusercontent.com/Linux5Real/Linux5Real/main/assets/finance-telemetry/table-current-surface.png" alt="Current Surface" />
+</div>
 
 ### Current System Layer
 
-| Layer | Live Setup |
-| --- | --- |
-| Primary model | `Gemini 3 Flash` via `OpenRouter` |
-| App modes | `AI Chat`, `Trade Check`, `Scanner`, `Earnings`, `Earnings Reaction` |
-| Persistence | `PostgreSQL` auth + chat persistence |
-| Memory | contextual memory and stored research |
-| Frontend | `Flask`, `Jinja`, `HTMX`, custom terminal-style interface |
-| Core bias | finance-first routing, not general-purpose chat |
+<div align="center">
+  <img src="https://raw.githubusercontent.com/Linux5Real/Linux5Real/main/assets/finance-telemetry/table-system-layer.png" alt="Current System Layer" />
+</div>
 
 ### Why It Exists
 
@@ -77,13 +68,9 @@ The stack has moved forward from the older setup. The current system runs on `Ge
 
 ### Near-Term Build Path
 
-| Next Move | Why It Matters |
-| --- | --- |
-| better search and source grounding | stronger market context |
-| cleaner Gemini mode routing | sharper task separation |
-| continued earnings improvements | better post-report read |
-| stronger behavior-aware layer | more execution discipline and self-pattern awareness |
-| system hardening | better reliability before any public expansion |
+<div align="center">
+  <img src="https://raw.githubusercontent.com/Linux5Real/Linux5Real/main/assets/finance-telemetry/table-build-path.png" alt="Near-Term Build Path" />
+</div>
 
 ---
 
