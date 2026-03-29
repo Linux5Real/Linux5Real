@@ -1,5 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="920" height="260" viewBox="0 0 920 260" role="img" aria-label="LINUS / LINUX5REAL">
 
+  <title>LINUS / LINUX5REAL</title>
+
   <style>
     .ui { font-family: 'Segoe UI', Arial, sans-serif; }
     .mono { font-family: 'IBM Plex Mono', 'JetBrains Mono', 'Fira Code', Consolas, monospace; }
@@ -46,7 +48,7 @@
     <animate attributeName="width" values="0;384;384;0" dur="4.8s" repeatCount="indefinite" />
   </rect>
   <text x="64" y="214" class="mono" fill="#F3F3F3" font-size="11">SESSION TAPE | SIGNAL ROUTING | EXECUTION DISCIPLINE</text>
-  <rect x="442" y="204" width="7" height="10" fill="#FFFFFF">
+  <rect x="436" y="204" width="7" height="10" fill="#FFFFFF">
     <animate attributeName="opacity" values="1;1;0" dur="0.9s" repeatCount="indefinite" />
   </rect>
 
