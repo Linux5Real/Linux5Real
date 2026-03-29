@@ -7,6 +7,7 @@ from playwright.sync_api import sync_playwright
 ROOT = Path(__file__).parent.parent
 DATA_FILE = ROOT / "assets/finance-telemetry/finance-repo-telemetry.json"
 OUT_DIR = ROOT / "assets/finance-telemetry"
+HERO_SVG_FILE = OUT_DIR / "finance-hero.svg"
 
 # Stell sicher, dass das Ausgabe-Verzeichnis existiert
 OUT_DIR.mkdir(parents=True, exist_ok=True)
@@ -253,16 +254,48 @@ def generate_activity_html() -> str:
     """
     return html
 
+
+def generate_hero_html() -> str:
+    hero_svg = HERO_SVG_FILE.read_text(encoding="utf-8")
+    return f"""
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <style>
+            body {{
+                margin: 0;
+                padding: 0;
+                background: #020202;
+            }}
+            svg {{
+                display: block;
+            }}
+        </style>
+    </head>
+    <body>
+        {hero_svg}
+    </body>
+    </html>
+    """
+
 def main() -> None:
     print("Starting PNG generation...")
     data = load_data()
     
+    html_hero = generate_hero_html()
     html_telemetry = generate_telemetry_html(data)
     html_activity = generate_activity_html()
     
     # Playwright starten
     with sync_playwright() as p:
         browser = p.chromium.launch()
+        page_hero = browser.new_page(viewport={'width': 920, 'height': 260})
+        page_hero.set_content(html_hero)
+        page_hero.wait_for_load_state('networkidle')
+        page_hero.screenshot(path=str(OUT_DIR / "finance-hero.png"))
+        print("Generated: finance-hero.png")
+
         # Telemetry Image generieren (größer)
         page_tele = browser.new_page(viewport={'width': 920, 'height': 332})
         page_tele.set_content(html_telemetry)

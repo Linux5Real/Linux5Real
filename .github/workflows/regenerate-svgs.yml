@@ -4,6 +4,9 @@ on:
   push:
     paths:
       - 'assets/finance-telemetry/finance-repo-telemetry.json'
+      - 'assets/finance-telemetry/finance-hero.svg'
+      - 'scripts/generate_images.py'
+      - '.github/workflows/regenerate-svgs.yml'
   workflow_dispatch:
 
 jobs:

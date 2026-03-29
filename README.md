@@ -75,19 +75,7 @@ The project is a live private platform, not just a finance-themed assistant conc
 
 ---
 
-## [03] SYSTEM SNAPSHOT
-
-| Metric | Current Print |
-| --- | --- |
-| Tracked files | `84` |
-| Tracked LOC | `26,539` |
-| Total commits | `197` |
-| Last 30D commits | `97` |
-| Last public telemetry print | `2026-03-29` |
-
----
-
-## [04] MODEL DESK
+## [03] MODEL DESK
 
 `Python` `JavaScript` `HTML` `CSS` `Flask` `HTMX` `PostgreSQL` `Chroma` `OpenRouter` `Gemini`
 
@@ -95,7 +83,7 @@ The stack has moved forward from the older setup. The current system runs on `Ge
 
 ---
 
-## [05] WHAT'S NEXT
+## [04] WHAT'S NEXT
 
 ### Near-Term Build Path
 
@@ -109,7 +97,7 @@ The stack has moved forward from the older setup. The current system runs on `Ge
 
 ---
 
-## [06] TELEMETRY
+## [05] TELEMETRY
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/Linux5Real/Linux5Real/main/assets/finance-telemetry/finance-repo-telemetry.png" alt="Finance AI platform — repo telemetry" />
