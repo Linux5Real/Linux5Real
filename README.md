@@ -2,16 +2,6 @@
   <img src="https://raw.githubusercontent.com/Linux5Real/Linux5Real/main/assets/finance-telemetry/finance-hero.png" alt="Linus / Linux5Real — Finance AI desk" />
 </div>
 
-<div align="center">
-
-`PRIVATE BUILDER` `FINANCE AI` `MARKET CONTEXT` `EXECUTION DISCIPLINE`
-
-</div>
-
-<div align="center">
-  <img src="https://skillicons.dev/icons?i=python,js,html,css,vscode,git,github,linux,postgresql,bash" alt="Python, JavaScript, HTML, CSS, VS Code, Git, GitHub, Linux, PostgreSQL, Bash" />
-</div>
-
 ---
 
 ## [01] DESK PROFILE
