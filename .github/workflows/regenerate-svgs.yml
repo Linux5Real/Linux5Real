@@ -1,6 +1,5 @@
 name: Regenerate Telemetry SVGs
-
-  on:
+on:
     push:
       paths:
         - 'assets/finance-telemetry/finance-repo-telemetry.json'
