@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-11T13:42:14Z",
+  "generated_at": "2026-06-12T01:28:41Z",
   "repo_label": "Finance Signal Engine",
   "scan": {
     "tracked_files": 227,
@@ -19,7 +19,6 @@
     "contributors": 2,
     "last_commit_date": "2026-06-10",
     "activity_series": [
-      2,
       0,
       0,
       0,
@@ -102,6 +101,7 @@
       10,
       1,
       10,
+      0,
       0
     ]
   }
