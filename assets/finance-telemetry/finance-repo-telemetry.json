@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-06-16T16:10:27Z",
+  "generated_at": "2026-06-16T16:12:55Z",
   "repo_label": "Finance Signal Engine",
   "scan": {
-    "tracked_files": 259,
-    "tracked_lines": 99814,
+    "tracked_files": 258,
+    "tracked_lines": 99607,
     "language_lines": {
-      "HTML": 17505,
+      "HTML": 17305,
       "JavaScript": 44875,
-      "Python": 36700,
+      "Python": 36693,
       "SQL": 75,
       "Shell": 414,
       "YAML": 245
     }
   },
   "activity": {
-    "total_commits": 518,
-    "commits_last_30_days": 131,
+    "total_commits": 519,
+    "commits_last_30_days": 132,
     "contributors": 2,
     "last_commit_date": "2026-06-16",
     "activity_series": [
@@ -102,7 +102,7 @@
       3,
       8,
       15,
-      38
+      39
     ]
   }
 }
