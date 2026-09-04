@@ -202,24 +202,24 @@ def generate_hero_html() -> str:
     return f"""<!DOCTYPE html><html><head><meta charset="utf-8">
 {GLOBAL_CSS}
 <style>
-  body { width: 920px; height: 320px; overflow: hidden; }
-  .body-wrap { display: flex; height: 268px; width: 920px; }
-  .col-left { width: 255px; flex-shrink: 0; border-right: 1px solid #181818; padding: 20px 22px; display: flex; flex-direction: column; justify-content: space-between; }
-  .col-mid { flex: 1; min-width: 0; border-right: 1px solid #181818; display: flex; flex-direction: column; }
-  .col-mid-inner { display: flex; flex: 1; }
-  .col-mid-sub { flex: 1; min-width: 0; padding: 18px 16px; border-right: 1px solid #111; }
-  .col-mid-sub:last-child { border-right: none; }
-  .icon-strip { border-top: 1px solid #181818; padding: 8px 16px; display: flex; align-items: center; justify-content: space-between; height: 68px; box-sizing: border-box; }
-  .col-right { width: 180px; flex-shrink: 0; padding: 18px 18px; display: flex; flex-direction: column; gap: 7px; justify-content: center; }
-  .tag-bright { display: inline-flex; align-items: center; background: #fff; border-radius: 4px; padding: 4px 9px; font-family: 'JetBrains Mono', monospace; font-size: 10px; font-weight: 700; color: #000; letter-spacing: 0.8px; text-transform: uppercase; white-space: nowrap; }
-  .tag-mid { display: inline-flex; align-items: center; background: #111; border: 1px solid #2a2a2a; border-radius: 4px; padding: 4px 9px; font-family: 'JetBrains Mono', monospace; font-size: 10px; font-weight: 600; color: #888; letter-spacing: 0.8px; text-transform: uppercase; white-space: nowrap; }
-  .tag-dim { display: inline-flex; align-items: center; background: #0d0d0d; border: 1px solid #1e1e1e; border-radius: 4px; padding: 4px 9px; font-family: 'JetBrains Mono', monospace; font-size: 10px; font-weight: 600; color: #555; letter-spacing: 0.8px; text-transform: uppercase; white-space: nowrap; }
-  .big-name { font-size: 52px; font-weight: 900; color: #fff; letter-spacing: -2px; line-height: 0.95; margin-bottom: 12px; }
-  .bio { font-size: 11px; color: #555; line-height: 1.55; }
-  .footer-mono { font-size: 9px; color: #222; letter-spacing: 1px; text-transform: uppercase; }
-  .col-label { font-size: 10px; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; color: #424242; margin-bottom: 8px; }
-  .col-value { font-size: 13px; font-weight: 700; color: #fff; margin-bottom: 6px; }
-  .col-detail { font-size: 11px; color: #444; line-height: 1.6; }
+  body {{ width: 920px; height: 320px; overflow: hidden; }}
+  .body-wrap {{ display: flex; height: 268px; width: 920px; }}
+  .col-left {{ width: 255px; flex-shrink: 0; border-right: 1px solid #181818; padding: 20px 22px; display: flex; flex-direction: column; justify-content: space-between; }}
+  .col-mid {{ flex: 1; min-width: 0; border-right: 1px solid #181818; display: flex; flex-direction: column; }}
+  .col-mid-inner {{ display: flex; flex: 1; }}
+  .col-mid-sub {{ flex: 1; min-width: 0; padding: 18px 16px; border-right: 1px solid #111; }}
+  .col-mid-sub:last-child {{ border-right: none; }}
+  .icon-strip {{ border-top: 1px solid #181818; padding: 8px 16px; display: flex; align-items: center; justify-content: space-between; height: 68px; box-sizing: border-box; }}
+  .col-right {{ width: 180px; flex-shrink: 0; padding: 18px 18px; display: flex; flex-direction: column; gap: 7px; justify-content: center; }}
+  .tag-bright {{ display: inline-flex; align-items: center; background: #fff; border-radius: 4px; padding: 4px 9px; font-family: 'JetBrains Mono', monospace; font-size: 10px; font-weight: 700; color: #000; letter-spacing: 0.8px; text-transform: uppercase; white-space: nowrap; }}
+  .tag-mid {{ display: inline-flex; align-items: center; background: #111; border: 1px solid #2a2a2a; border-radius: 4px; padding: 4px 9px; font-family: 'JetBrains Mono', monospace; font-size: 10px; font-weight: 600; color: #888; letter-spacing: 0.8px; text-transform: uppercase; white-space: nowrap; }}
+  .tag-dim {{ display: inline-flex; align-items: center; background: #0d0d0d; border: 1px solid #1e1e1e; border-radius: 4px; padding: 4px 9px; font-family: 'JetBrains Mono', monospace; font-size: 10px; font-weight: 600; color: #555; letter-spacing: 0.8px; text-transform: uppercase; white-space: nowrap; }}
+  .big-name {{ font-size: 52px; font-weight: 900; color: #fff; letter-spacing: -2px; line-height: 0.95; margin-bottom: 12px; }}
+  .bio {{ font-size: 11px; color: #555; line-height: 1.55; }}
+  .footer-mono {{ font-size: 9px; color: #222; letter-spacing: 1px; text-transform: uppercase; }}
+  .col-label {{ font-size: 10px; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; color: #424242; margin-bottom: 8px; }}
+  .col-value {{ font-size: 13px; font-weight: 700; color: #fff; margin-bottom: 6px; }}
+  .col-detail {{ font-size: 11px; color: #444; line-height: 1.6; }}
 </style>
 </head><body>
   <div class="card" style="border-radius:0;">
