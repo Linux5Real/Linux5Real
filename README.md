@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Linux5Real/Linux5Real/main/assets/finance-telemetry/finance-hero.png" alt="Linus / Linux5Real — Finance AI desk" />
+  <img src="https://raw.githubusercontent.com/Linux5Real/Linux5Real/main/assets/finance-telemetry/finance-hero.png?v=2" alt="Linus / Linux5Real — Finance AI desk" />
 </div>
 
 ---
@@ -37,13 +37,13 @@ The project is a live private trading platform built around actual market mechan
 ### Current Surface
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Linux5Real/Linux5Real/main/assets/finance-telemetry/table-current-surface.png" alt="Current Surface" />
+  <img src="https://raw.githubusercontent.com/Linux5Real/Linux5Real/main/assets/finance-telemetry/table-current-surface.png?v=2" alt="Current Surface" />
 </div>
 
 ### Current System Layer
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Linux5Real/Linux5Real/main/assets/finance-telemetry/table-system-layer.png" alt="Current System Layer" />
+  <img src="https://raw.githubusercontent.com/Linux5Real/Linux5Real/main/assets/finance-telemetry/table-system-layer.png?v=2" alt="Current System Layer" />
 </div>
 
 ### Why It Exists
@@ -76,7 +76,7 @@ Execution edge requires empirical proof. Current development is focused on compl
 ### Near-Term Build Path
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Linux5Real/Linux5Real/main/assets/finance-telemetry/table-build-path.png" alt="Near-Term Build Path" />
+  <img src="https://raw.githubusercontent.com/Linux5Real/Linux5Real/main/assets/finance-telemetry/table-build-path.png?v=2" alt="Near-Term Build Path" />
 </div>
 
 ---
@@ -84,11 +84,11 @@ Execution edge requires empirical proof. Current development is focused on compl
 ## [05] TELEMETRY
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Linux5Real/Linux5Real/main/assets/finance-telemetry/finance-repo-telemetry.png" alt="Finance AI platform — repo telemetry" />
+  <img src="https://raw.githubusercontent.com/Linux5Real/Linux5Real/main/assets/finance-telemetry/finance-repo-telemetry.png?v=2" alt="Finance AI platform — repo telemetry" />
 </div>
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Linux5Real/Linux5Real/main/assets/finance-telemetry/finance-repo-activity.png" alt="Finance AI platform — repo activity" />
+  <img src="https://raw.githubusercontent.com/Linux5Real/Linux5Real/main/assets/finance-telemetry/finance-repo-activity.png?v=2" alt="Finance AI platform — repo activity" />
 </div>
 
 ---
