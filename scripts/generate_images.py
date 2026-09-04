@@ -239,9 +239,9 @@ def generate_hero_html() -> str:
       </div>
       <div class="col-mid">
         <div class="col-mid-inner">
-          <div class="col-mid-sub"><div class="col-label">Focus</div><div class="col-value">Finance AI</div><div class="col-detail">Market context<br>Execution workflow<br>Signal routing</div></div>
-          <div class="col-mid-sub"><div class="col-label">Trading</div><div class="col-value">Swing &rarr; Day</div><div class="col-detail">Stocks &amp; catalysts<br>US equities<br>Chart-driven</div></div>
-          <div class="col-mid-sub"><div class="col-label">Current Build</div><div class="col-value">Signal Engine</div><div class="col-detail">DeepSeek &amp; Grok<br>Private trading desk<br>AI model routing</div></div>
+          <div class="col-mid-sub"><div class="col-label">Focus</div><div class="col-value">Measurement &amp; AI</div><div class="col-detail">1m market data<br>Deterministic metrics<br>Trade journal AI</div></div>
+          <div class="col-mid-sub"><div class="col-label">Trading</div><div class="col-value">Swing &rarr; Day</div><div class="col-detail">Stocks &amp; catalysts<br>US equities<br>Execution edge</div></div>
+          <div class="col-mid-sub"><div class="col-label">Current Build</div><div class="col-value">L4-Finance V2</div><div class="col-detail">GPT 5.5 &amp; DeepSeek<br>Databento tick core<br>10 Binding Rules</div></div>
         </div>
         <div class="icon-strip">{icon_cells}</div>
       </div>
@@ -249,7 +249,7 @@ def generate_hero_html() -> str:
         <div class="col-label">Identity</div>
         <span class="tag-bright">Private Builder</span>
         <span class="tag-mid">Finance AI</span>
-        <span class="tag-dim">Market Context</span>
+        <span class="tag-dim">Measurement First</span>
         <span class="tag-dim">Exec. Discipline</span>
         <span class="tag-dim">Swing &rarr; Day</span>
         <span class="tag-dim">Germany</span>
@@ -261,11 +261,12 @@ def generate_hero_html() -> str:
 
 def generate_table_current_surface_html() -> str:
     rows = [
-        ("ai-trading-chat",  "main finance workspace"),
-        ("trade-check",      "decision support before entry"),
-        ("market-scanner",   "opportunity filtering"),
-        ("database-view",    "journal and stored context"),
-        ("ai-training",      "feedback and improvement loop"),
+        ("ai-trading-chat",   "multi-channel workspace with chat/data switcher, context tiers & research injection"),
+        ("data-mode",         "deterministic 1m volatility measurement with frozen question catalog (T1.1, T1.2)"),
+        ("trading-journal",   "notes tree, trade lifecycle tracking (entry context, MAE/MFE) & Journal-AI"),
+        ("live-scanner",      "per-ticker scanner with SSE streaming, chart alerts, drawings & custom intervals"),
+        ("research-pipeline", "intent-routed intelligence via FMP, SEC filings & local ChromaDB cache"),
+        ("control-panel",     "standalone administrative console & system health metrics on port 9090"),
     ]
     row_html = ""
     for key, val in rows:
@@ -295,12 +296,13 @@ def generate_table_current_surface_html() -> str:
 
 def generate_table_system_layer_html() -> str:
     rows = [
-        ("Primary model",  '<span class="cpill-bright">Gemini 3 Flash</span> via <span class="cpill-bright">OpenRouter</span>'),
-        ("App modes",      '<span class="cpill">AI Chat</span> <span class="cpill">Trade Check</span> <span class="cpill">Scanner</span> <span class="cpill">Earnings</span> <span class="cpill">Earnings Reaction</span>'),
-        ("Persistence",    '<span class="cpill-bright">PostgreSQL</span> auth + chat persistence'),
-        ("Memory",         "contextual memory and stored research"),
-        ("Frontend",       '<span class="cpill">Flask</span> <span class="cpill">Jinja</span> <span class="cpill">HTMX</span> custom terminal-style interface'),
-        ("Core bias",      "finance-first routing, not general-purpose chat"),
+        ("Primary models",  '<span class="cpill-bright">GPT 5.5</span> reasoning/chat &middot; <span class="cpill-bright">DeepSeek V4 Flash</span> scanner/fallback &middot; <span class="cpill-bright">GPT 5.6 Luna</span> data mode'),
+        ("Market data",    '<span class="cpill">Databento (XNAS.ITCH 1m)</span> offline measurement core &middot; <span class="cpill">TradingView</span> live scanner'),
+        ("Architecture",   '<span class="cpill">G1 offline core</span> (plain Python/Parquet) &middot; <span class="cpill">G2 artifact API</span> (read-only) &middot; <span class="cpill">G3 feature flags</span>'),
+        ("App modes",      '<span class="cpill">ai-chat</span> <span class="cpill">data-mode</span> <span class="cpill">journal-ai</span> <span class="cpill">scanner</span> <span class="cpill">earnings-reaction</span> <span class="cpill">daily-check</span>'),
+        ("Search scraper", 'dedicated FastAPI service (<span class="cpill">SearXNG</span> &middot; <span class="cpill">Crawl4AI</span> &middot; <span class="cpill">Camoufox</span> &middot; <span class="cpill">BGE-M3</span>) on port 8090'),
+        ("Persistence",    '<span class="cpill-bright">PostgreSQL</span> users, trades, journal, question log &middot; <span class="cpill">SQLite</span> cache &middot; <span class="cpill">ChromaDB</span> vectors'),
+        ("Core bias",      '10 Binding Rules: Python computes deterministically, AI only reads back numbers (zero hallucination)'),
     ]
     row_html = ""
     for key, val in rows:
@@ -330,18 +332,18 @@ def generate_table_system_layer_html() -> str:
 
 def generate_table_build_path_html() -> str:
     rows = [
-        ("better search and source grounding", "stronger market context"),
-        ("cleaner Gemini mode routing",         "sharper task separation"),
-        ("continued earnings improvements",     "better post-report read"),
-        ("stronger behavior-aware layer",       "more execution discipline and self-pattern awareness"),
-        ("system hardening",                    "better reliability before any public expansion"),
+        ("Statistical pattern evaluation", "accumulating 150&ndash;200 real logged trades for statistically valid edge analysis"),
+        ("Databento cron automation",      "automated gapless EOD market data ingestion and daily Parquet matrix rollups"),
+        ("Trade context enrichment",       "automated MAE/MFE and pre-entry indicators from true 1-minute historical bars"),
+        ("Real-time alert verification",   "multi-channel signal delivery via Web Push (VAPID) and WhatsApp trade alerts"),
+        ("Volatility signal sizing",       "establishing robust confidence intervals across multi-month holdout windows"),
     ]
     row_html = ""
     for key, val in rows:
         row_html += f"""
         <tr>
           <td>{key}</td>
-          <td style="color:#555;">{val}</td>
+          <td style="color:#aaa;">{val}</td>
         </tr>"""
 
     return f"""<!DOCTYPE html><html><head><meta charset="utf-8">{GLOBAL_CSS}
@@ -487,9 +489,9 @@ def main() -> None:
 
     renders = [
         (generate_hero_html(),                        920, 320,  "finance-hero.png"),
-        (generate_table_current_surface_html(),       920, 260,  "table-current-surface.png"),
-        (generate_table_system_layer_html(),          920, 310,  "table-system-layer.png"),
-        (generate_table_build_path_html(),            920, 295,  "table-build-path.png"),
+        (generate_table_current_surface_html(),       920, 340,  "table-current-surface.png"),
+        (generate_table_system_layer_html(),          920, 420,  "table-system-layer.png"),
+        (generate_table_build_path_html(),            920, 330,  "table-build-path.png"),
         (generate_telemetry_html(data),               920, 332,  "finance-repo-telemetry.png"),
         (generate_activity_html(data),                920, 320,  "finance-repo-activity.png"),
     ]

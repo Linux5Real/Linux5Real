@@ -30,9 +30,9 @@ I am not interested in generic AI wrappers or polished demo software with no ope
 
 ## [02] ACTIVE POSITION — FINANCE AI PLATFORM
 
-> A private finance AI workspace built around the way I actually trade: charts, catalysts, headlines, earnings, memory, risk, and execution context in one operating surface.
+> A private finance workspace built around deterministic execution, institutional tick data, and calibrated AI routing: dual-core architecture combining a 1-minute market volatility measurement engine with a strict execution journal.
 
-The project is a live private platform, not just a finance-themed assistant concept. It combines a custom trading desk UI, persistent chat, finance-focused reasoning modes, memory, and a workflow built around actual market use instead of generic chat.
+The project is a live private trading platform built around actual market mechanics, not LLM predictions. It enforces strict mathematical boundaries (G1/G2/G3), separating deterministic Python calculations from AI synthesis to eliminate hallucination and maintain absolute execution discipline.
 
 ### Current Surface
 
@@ -48,23 +48,30 @@ The project is a live private platform, not just a finance-themed assistant conc
 
 ### Why It Exists
 
-- reduce noise before execution
-- keep finance context attached to the decision
-- track chats and evolving reasoning over time
-- build a sharper link between research, memory, and trades
-- create a private operator stack before deciding what should ever be public
+- eliminate AI hallucination through deterministic pre-computed metrics
+- keep rich market context and order book depth attached to every decision
+- log execution quality (MAE / MFE / slippage) to evaluate statistical edge
+- enforce pre-trade checklists and risk boundaries before capital deployment
+- build a private operator stack grounded in real data before considering public releases
 
 ---
 
 ## [03] MODEL DESK
 
-`Python` `JavaScript` `HTML` `CSS` `Flask` `HTMX` `PostgreSQL` `Chroma` `OpenRouter` `Gemini`
+`Python` `FastAPI` `PostgreSQL` `ChromaDB` `Databento (XNAS.ITCH)` `OpenRouter` `GPT 5.5` `DeepSeek V4 Flash` `GPT 5.6 Luna`
 
-The stack has moved forward from the older setup. The current system runs on `Gemini 3 Flash` through `OpenRouter`, with different product modes tuned around finance workflow instead of one flat assistant behavior.
+The model layer is governed by the **10 Binding Rules**: the LLM never calculates prices, percentages, or indicators. All metrics are computed deterministically in Python before being passed as read-only context.
+
+- **GPT 5.5** — Primary reasoning engine for conversational trading analysis and deep post-trade reviews.
+- **DeepSeek V4 Flash** — High-frequency streaming scanner, rapid classification, and real-time fallback.
+- **GPT 5.6 Luna** — Specialized analytical engine for high-density Data Mode queries.
+- **Graceful Fallback** — Automatic multi-model routing ensuring zero pipeline lockup during high-volatility sessions.
 
 ---
 
 ## [04] WHAT'S NEXT
+
+Execution edge requires empirical proof. Current development is focused on completing a statistically significant sample of 150–200 live trades with full MAE/MFE logging before evaluating risk-adjusted edge and expanding automated order routing.
 
 ### Near-Term Build Path
 
