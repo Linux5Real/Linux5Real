@@ -241,7 +241,7 @@ def generate_hero_html() -> str:
         <div class="col-mid-inner">
           <div class="col-mid-sub"><div class="col-label">Focus</div><div class="col-value">Measurement &amp; AI</div><div class="col-detail">1m market data<br>Deterministic metrics<br>Trade journal AI</div></div>
           <div class="col-mid-sub"><div class="col-label">Trading</div><div class="col-value">Swing &rarr; Day</div><div class="col-detail">Stocks &amp; catalysts<br>US equities<br>Execution edge</div></div>
-          <div class="col-mid-sub"><div class="col-label">Current Build</div><div class="col-value">L4-Finance V2</div><div class="col-detail">GPT 5.5 &amp; DeepSeek<br>Databento tick core<br>10 Binding Rules</div></div>
+          <div class="col-mid-sub"><div class="col-label">Current Build</div><div class="col-value">L4-Finance V2</div><div class="col-detail">5 models, user-picked<br>Databento tick core<br>10 Binding Rules</div></div>
         </div>
         <div class="icon-strip">{icon_cells}</div>
       </div>
@@ -261,12 +261,14 @@ def generate_hero_html() -> str:
 
 def generate_table_current_surface_html() -> str:
     rows = [
-        ("ai-trading-chat",   "multi-channel workspace with chat/data switcher, context tiers & research injection"),
-        ("data-mode",         "deterministic 1m volatility measurement with frozen question catalog (T1.1, T1.2)"),
-        ("trading-journal",   "notes tree, trade lifecycle tracking (entry context, MAE/MFE) & Journal-AI"),
-        ("live-scanner",      "per-ticker scanner with SSE streaming, chart alerts, drawings & custom intervals"),
-        ("research-pipeline", "intent-routed intelligence via FMP, SEC filings & local ChromaDB cache"),
-        ("control-panel",     "standalone administrative console & system health metrics on port 9090"),
+        ("ai-chat",           "per-chat model picker, chat/data switcher, live web research & cited sources"),
+        ("live-scanner",      "24/7 TradingView candle collector, chart alerts, drawings & price-alert watcher"),
+        ("trading-journal",   "notes tree, trade lifecycle (entry context, auto MAE/MFE) & Journal-AI"),
+        ("trading-stats",     "deterministic trade statistics with n, confidence interval & data date"),
+        ("daily-report",      "SNDK pre-market report at 09:00/09:30 New York, Ask-AI on a frozen snapshot"),
+        ("backtester",        "strategies in network-isolated Docker sandboxes on Massive market data"),
+        ("adhd-agents",       "voice + task delegation workspace (Gemini Live, speech-to-text)"),
+        ("extensions",        "TradingView bridge overlay chat, iPhone app & Windows desktop app"),
     ]
     row_html = ""
     for key, val in rows:
@@ -296,11 +298,13 @@ def generate_table_current_surface_html() -> str:
 
 def generate_table_system_layer_html() -> str:
     rows = [
-        ("Primary models",  '<span class="cpill-bright">GPT 5.5</span> reasoning/chat &middot; <span class="cpill-bright">DeepSeek V4 Flash</span> scanner/fallback &middot; <span class="cpill-bright">GPT 5.6 Luna</span> data mode'),
+        ("Model picker",    'user picks per chat: <span class="cpill-bright">DeepSeek V4.1 Flash</span> <span class="cpill-bright">GPT 5.6 Luna</span> <span class="cpill-bright">GPT 5.6 Sol</span> <span class="cpill-bright">Grok 4.7</span> <span class="cpill-bright">Gemini 3.8 Flash</span>'),
+        ("Routing",         'health check every 60 s &middot; visible smart routing only when a model is down &middot; no silent fallback'),
+        ("Decision layer",  '<span class="cpill">Jev</span> fast yes/no decider at 12 points (search depth, URL triage, report updates) &middot; any error = default path'),
         ("Market data",    '<span class="cpill">Databento (XNAS.ITCH 1m)</span> offline measurement core &middot; <span class="cpill">TradingView</span> live scanner'),
         ("Architecture",   '<span class="cpill">G1 offline core</span> (plain Python/Parquet) &middot; <span class="cpill">G2 artifact API</span> (read-only) &middot; <span class="cpill">G3 feature flags</span>'),
-        ("App modes",      '<span class="cpill">ai-chat</span> <span class="cpill">data-mode</span> <span class="cpill">journal-ai</span> <span class="cpill">scanner</span> <span class="cpill">earnings-reaction</span> <span class="cpill">daily-check</span>'),
-        ("Search scraper", 'dedicated FastAPI service (<span class="cpill">SearXNG</span> &middot; <span class="cpill">Crawl4AI</span> &middot; <span class="cpill">Camoufox</span> &middot; <span class="cpill">BGE-M3</span>) on port 8090'),
+        ("Search scraper", 'own FastAPI service: <span class="cpill">SearXNG</span> &rarr; <span class="cpill">trafilatura</span> &rarr; <span class="cpill">Crawl4AI</span> &rarr; <span class="cpill">bge-reranker</span>, Camoufox in background'),
+        ("Alerts",         '<span class="cpill">Web Push</span> <span class="cpill">WhatsApp</span> <span class="cpill">Telnyx phone calls</span> &middot; trades never placed by voice'),
         ("Persistence",    '<span class="cpill-bright">PostgreSQL</span> users, trades, journal, question log &middot; <span class="cpill">SQLite</span> cache &middot; <span class="cpill">ChromaDB</span> vectors'),
         ("Core bias",      '10 Binding Rules: Python computes deterministically, AI only reads back numbers (zero hallucination)'),
     ]
@@ -333,9 +337,6 @@ def generate_table_system_layer_html() -> str:
 def generate_table_build_path_html() -> str:
     rows = [
         ("Statistical pattern evaluation", "accumulating 150&ndash;200 real logged trades for statistically valid edge analysis"),
-        ("Databento cron automation",      "automated gapless EOD market data ingestion and daily Parquet matrix rollups"),
-        ("Trade context enrichment",       "automated MAE/MFE and pre-entry indicators from true 1-minute historical bars"),
-        ("Real-time alert verification",   "multi-channel signal delivery via Web Push (VAPID) and WhatsApp trade alerts"),
         ("Volatility signal sizing",       "establishing robust confidence intervals across multi-month holdout windows"),
     ]
     row_html = ""

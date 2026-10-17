@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Linux5Real/Linux5Real/main/assets/finance-telemetry/finance-hero.png?v=2" alt="Linus / Linux5Real — Finance AI desk" />
+  <img src="https://raw.githubusercontent.com/Linux5Real/Linux5Real/main/assets/finance-telemetry/finance-hero.png?v=3" alt="Linus / Linux5Real — Finance AI desk" />
 </div>
 
 ---
@@ -37,13 +37,13 @@ The project is a live private trading platform built around actual market mechan
 ### Current Surface
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Linux5Real/Linux5Real/main/assets/finance-telemetry/table-current-surface.png?v=2" alt="Current Surface" />
+  <img src="https://raw.githubusercontent.com/Linux5Real/Linux5Real/main/assets/finance-telemetry/table-current-surface.png?v=3" alt="Current Surface" />
 </div>
 
 ### Current System Layer
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Linux5Real/Linux5Real/main/assets/finance-telemetry/table-system-layer.png?v=2" alt="Current System Layer" />
+  <img src="https://raw.githubusercontent.com/Linux5Real/Linux5Real/main/assets/finance-telemetry/table-system-layer.png?v=3" alt="Current System Layer" />
 </div>
 
 ### Why It Exists
@@ -52,31 +52,32 @@ The project is a live private trading platform built around actual market mechan
 - keep rich market context and order book depth attached to every decision
 - log execution quality (MAE / MFE / slippage) to evaluate statistical edge
 - enforce pre-trade checklists and risk boundaries before capital deployment
+- reach the desk everywhere: browser, TradingView overlay, iPhone, Windows desktop, voice and phone-call alerts
 - build a private operator stack grounded in real data before considering public releases
 
 ---
 
 ## [03] MODEL DESK
 
-`Python` `FastAPI` `PostgreSQL` `ChromaDB` `Databento (XNAS.ITCH)` `OpenRouter` `GPT 5.5` `DeepSeek V4 Flash` `GPT 5.6 Luna`
+`Python` `Flask` `FastAPI` `PostgreSQL` `SQLite` `ChromaDB` `Databento (XNAS.ITCH)` `TradingView` `OpenRouter` `Docker`
 
 The model layer is governed by the **10 Binding Rules**: the LLM never calculates prices, percentages, or indicators. All metrics are computed deterministically in Python before being passed as read-only context.
 
-- **GPT 5.5** — Primary reasoning engine for conversational trading analysis and deep post-trade reviews.
-- **DeepSeek V4 Flash** — High-frequency streaming scanner, rapid classification, and real-time fallback.
-- **GPT 5.6 Luna** — Specialized analytical engine for high-density Data Mode queries.
-- **Graceful Fallback** — Automatic multi-model routing ensuring zero pipeline lockup during high-volatility sessions.
+- **User-picked models** — `DeepSeek V4.1 Flash` · `GPT 5.6 Luna` · `GPT 5.6 Sol` · `Grok 4.7` · `Gemini 3.8 Flash`, chosen per chat and never hardcoded. New OpenAI-compatible models plug in by config, no code change.
+- **No sampling tuning** — no temperature, no top-p, no reasoning budget. Only `max_tokens` per mode; the context window belongs to the model.
+- **Visible smart routing** — models are health-checked every 60 s. A request is rerouted only when the chosen model is measurably down, and the reroute is always announced. No silent fallback.
+- **Jev decision layer** — a fast decision model answers yes/no and selection questions at 12 points (search depth, URL triage, headline filter, report updates). Any Jev error falls back to the default path; journal and trade data never leave the app.
 
 ---
 
 ## [04] WHAT'S NEXT
 
-Execution edge requires empirical proof. Current development is focused on completing a statistically significant sample of 150–200 live trades with full MAE/MFE logging before evaluating risk-adjusted edge and expanding automated order routing.
+Execution edge requires empirical proof. The measurement pipeline is in place: Databento 1-minute data is ingested daily and MAE/MFE is recomputed automatically for every logged trade. The open step is the data itself, a statistically significant sample of 150–200 live trades, before any pattern evaluation or risk-adjusted edge claim.
 
 ### Near-Term Build Path
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Linux5Real/Linux5Real/main/assets/finance-telemetry/table-build-path.png?v=2" alt="Near-Term Build Path" />
+  <img src="https://raw.githubusercontent.com/Linux5Real/Linux5Real/main/assets/finance-telemetry/table-build-path.png?v=3" alt="Near-Term Build Path" />
 </div>
 
 ---
@@ -84,11 +85,11 @@ Execution edge requires empirical proof. Current development is focused on compl
 ## [05] TELEMETRY
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Linux5Real/Linux5Real/main/assets/finance-telemetry/finance-repo-telemetry.png?v=2" alt="Finance AI platform — repo telemetry" />
+  <img src="https://raw.githubusercontent.com/Linux5Real/Linux5Real/main/assets/finance-telemetry/finance-repo-telemetry.png?v=3" alt="Finance AI platform — repo telemetry" />
 </div>
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Linux5Real/Linux5Real/main/assets/finance-telemetry/finance-repo-activity.png?v=2" alt="Finance AI platform — repo activity" />
+  <img src="https://raw.githubusercontent.com/Linux5Real/Linux5Real/main/assets/finance-telemetry/finance-repo-activity.png?v=3" alt="Finance AI platform — repo activity" />
 </div>
 
 ---
